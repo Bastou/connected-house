@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gulp on Connected House</title>
+    <link>/tags/gulp/</link>
+    <description>Recent content in Gulp on Connected House</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 15 Nov 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/gulp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Article model</title>
+      <link>/articles/model/</link>
+      <pubDate>Tue, 15 Nov 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/articles/model/</guid>
+      <description>Illo nostrum laudantium similique necessitatibus pariatur quasi ea molestias est ratione consequatur nisi officiis maiores odit laboriosam atque numquam a, enim consectetur voluptate. Ratione quidem quo maiores, possimus, iure deleniti fuga eius quaerat aliquid enim non dolore esse accusamus adipisci officiis ullam, eaque ut alias animi quas! Magni molestias itaque quaerat. Voluptates vitae possimus sit tempore expedita, modi quam doloribus soluta dolor odio repellat adipisci eaque, maxime ducimus eum, dolore.</description>
+    </item>
+    
+  </channel>
+</rss>

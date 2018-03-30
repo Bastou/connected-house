@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Google Map Api on Bastien</title>
+    <link>/en/tags/google-map-api/</link>
+    <description>Recent content in Google Map Api on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Oct 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/en/tags/google-map-api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Altiservice</title>
+      <link>/en/realisations/altiservice/</link>
+      <pubDate>Sat, 15 Oct 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/altiservice/</guid>
+      <description>Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/WelloffFreeAuk.gif.      This large-scale project included some interesting challenges such as the management of a social wall – one for the entire website et one for each ski stations where users can share their experience in the mountains through Instagram, Facebook and Twitter.      The density and the diversity of informations on the website required a lot of different styled modules.</description>
+    </item>
+    
+    <item>
+      <title>Sortir Agen</title>
+      <link>/en/realisations/sortir-agen/</link>
+      <pubDate>Sun, 15 Jan 2017 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/sortir-agen/</guid>
+      <description>The app was created with hybrid html5 with Cordova. This allowed me to combine the flexibility of Html5 and some native features like GPS location, adding events to the calendar and sharing on social networks.    Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/CavernousVengefulDiscus.gif.      I created interactive maps with google API to discover walks, cultural activities and sports, bars and restaurants.</description>
+    </item>
+    
+  </channel>
+</rss>

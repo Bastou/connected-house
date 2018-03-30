@@ -1,0 +1,28 @@
+/* $PAGINATION
+   ========================================================================== */
+
+.pagination {
+    margin-top: 120px;
+    position: relative;
+    &__items {
+        position: relative;
+        z-index: 1;
+    }
+    &-item {
+        height: 80px;
+        padding-bottom: 0 !important;
+    }
+    &-thumb {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        width: 100%;
+        overflow: hidden;
+        &_img {
+            transition-delay: 0.1s;
+        }
+    }
+}
+

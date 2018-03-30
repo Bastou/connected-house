@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full Responsive on Bastien</title>
+    <link>/en/tags/full-responsive/</link>
+    <description>Recent content in Full Responsive on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Oct 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/en/tags/full-responsive/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Altiservice</title>
+      <link>/en/realisations/altiservice/</link>
+      <pubDate>Sat, 15 Oct 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/altiservice/</guid>
+      <description>Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/WelloffFreeAuk.gif.      This large-scale project included some interesting challenges such as the management of a social wall – one for the entire website et one for each ski stations where users can share their experience in the mountains through Instagram, Facebook and Twitter.      The density and the diversity of informations on the website required a lot of different styled modules.</description>
+    </item>
+    
+    <item>
+      <title>Beside</title>
+      <link>/en/realisations/beside-consulting/</link>
+      <pubDate>Wed, 15 Jun 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/beside-consulting/</guid>
+      <description>One interesting aspect in this project was the use of a video on the home page which continues to run behind each main sections of the website.    Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/PiercingEverlastingDodobird.gif.</description>
+    </item>
+    
+  </channel>
+</rss>

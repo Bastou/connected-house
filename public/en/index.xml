@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bastien Cornier on Bastien</title>
+    <link>/en/</link>
+    <description>Recent content in Bastien Cornier on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 15 Oct 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Altiservice</title>
+      <link>/en/realisations/altiservice/</link>
+      <pubDate>Sat, 15 Oct 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/altiservice/</guid>
+      <description>Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/WelloffFreeAuk.gif.      This large-scale project included some interesting challenges such as the management of a social wall – one for the entire website et one for each ski stations where users can share their experience in the mountains through Instagram, Facebook and Twitter.      The density and the diversity of informations on the website required a lot of different styled modules.</description>
+    </item>
+    
+    <item>
+      <title>Sortir Agen</title>
+      <link>/en/realisations/sortir-agen/</link>
+      <pubDate>Sun, 15 Jan 2017 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/sortir-agen/</guid>
+      <description>The app was created with hybrid html5 with Cordova. This allowed me to combine the flexibility of Html5 and some native features like GPS location, adding events to the calendar and sharing on social networks.    Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/CavernousVengefulDiscus.gif.      I created interactive maps with google API to discover walks, cultural activities and sports, bars and restaurants.</description>
+    </item>
+    
+    <item>
+      <title>Beside</title>
+      <link>/en/realisations/beside-consulting/</link>
+      <pubDate>Wed, 15 Jun 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/beside-consulting/</guid>
+      <description>One interesting aspect in this project was the use of a video on the home page which continues to run behind each main sections of the website.    Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/PiercingEverlastingDodobird.gif.</description>
+    </item>
+    
+    <item>
+      <title>Fondation la dépêche</title>
+      <link>/en/realisations/fondation-groupe-depeche/</link>
+      <pubDate>Thu, 15 Dec 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/fondation-groupe-depeche/</guid>
+      <description>Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://thumbs.gfycat.com/LinearUniqueAlligator-size_restricted.gif.      The biggest challenge was to adapt to the customer comebacks, doubts and many changes, including during the development phase, in very short deadlines.       The &#34;Occitanie Jobs&#34; section was the most complex to redesign. At first, the UX was not adapted to a smooth and clear navigation.</description>
+    </item>
+    
+    <item>
+      <title>SKLTN</title>
+      <link>/en/realisations/skltn/</link>
+      <pubDate>Tue, 15 Nov 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/skltn/</guid>
+      <description>I was searching for a solution to avoid some dumb repetitions at the beginning of a website project. Whether I create without a base or retrieve code I had already done before, I was always wasting time. I wanted to have a simple and flexible project base with only the components that I need. I came up with the idea to merge the great possibilities of the css pre-processor SASS and the power of Yeoman to give a helping hand to the start up of projects.</description>
+    </item>
+    
+    <item>
+      <title>Monolith Party</title>
+      <link>/en/lab/monolith-party/</link>
+      <pubDate>Wed, 19 Jul 2017 15:58:37 +0200</pubDate>
+      
+      <guid>/en/lab/monolith-party/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Third-Eye Monk</title>
+      <link>/en/lab/third-eye-monk/</link>
+      <pubDate>Wed, 19 Jul 2017 15:58:37 +0200</pubDate>
+      
+      <guid>/en/lab/third-eye-monk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ribbon Stars Drawer</title>
+      <link>/en/lab/ribbon-stars-drawer/</link>
+      <pubDate>Fri, 19 May 2017 15:58:37 +0200</pubDate>
+      
+      <guid>/en/lab/ribbon-stars-drawer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

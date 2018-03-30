@@ -1,0 +1,22 @@
+/* $HEADER
+========================================================================== */
+
+.main-navbar {
+  padding: 50px 50px 0;
+}
+
+.navbar {
+  display: inline-block;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  p {
+    margin-bottom:0;
+  }
+}
+
+.navbar-brand__title {
+  margin-left:25px;
+}

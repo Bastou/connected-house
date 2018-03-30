@@ -1,0 +1,34 @@
+/* $BUBBLE PAGE
+========================================================================== */
+
+.bubble-page {
+	position: absolute;
+	z-index:1;
+	&:before {
+		content: "";
+		width:52px;
+		height:52px;
+		position: absolute;
+		top: -190%;
+		left: 50%;
+		transform: translateX(-50%);
+		background-image: linear-gradient(31deg, $red-pink, $pale-yellow);
+		box-shadow: 0 2px 14px 0 #080433;
+		border-radius: 100%;
+
+	}
+}
+
+.bubble-page--top {
+	top: 154px;
+	right: 139px;
+}
+
+
+.bubble-page--bottom {
+	bottom: 44px;
+	left: 51px;
+	&:before {
+		background-image: linear-gradient(to bottom, #1aceff, $dark-seafoam);
+	}
+}

@@ -1,0 +1,97 @@
+/* $TYPOGRAPHY
+========================================================================== */
+
+@import '//fonts.googleapis.com/css?family=Merriweather:400,500,700';
+
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: $font-stack-common;
+	@include rem('font-size', $base-font-size);
+	line-height: $text-line-height;
+	color: $base-text-color;
+	font-weight: $light;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+p {
+	margin: 0 0 $paragraph-spacing;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+	font-family: $font-stack-headings;
+	font-weight: inherit;
+	margin: 1.414em 0 0.5em;
+  	line-height: 1.2;
+	a {
+		color: inherit;
+	}
+}
+
+
+h1, .h1 {
+	@include rem('font-size', $h1-size);	
+}
+
+h2, .h2 {
+	@include rem('font-size', $h2-size);	
+}
+
+h3, .h3 {
+	@include rem('font-size', $h3-size);	
+}
+
+h4, .h4 {
+	@include rem('font-size', $h4-size);	
+}
+
+
+a {
+	color: $dominant-color;
+	text-decoration: none;
+	&:hover {
+		color: darken($dominant-color, 10%);
+		text-decoration: none;
+	}
+	&:focus {
+		color: darken($dominant-color, 15%);
+		text-decoration: none;
+	}
+}
+
+
+/* LES TITRES
+----------------------------------------------------------------------------------------*/
+
+.titre-page {
+	font-weight: 700;
+	@media #{$max-small} {
+		@include fontSize(30,40);
+	}
+}
+
+.titre-bloc {
+	@include fontSize($h4-size);
+	font-weight: 600;
+}
+
+
+
+/* Text formaters
+----------------------------------------------------------------------------------------*/
+
+
+
+hr {
+	margin: 20px 0 40px;
+}
+

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Acf on Bastien</title>
+    <link>/tags/acf/</link>
+    <description>Recent content in Acf on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Thu, 15 Dec 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/acf/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Fondation la dépêche</title>
+      <link>/realisations/fondation-groupe-depeche/</link>
+      <pubDate>Thu, 15 Dec 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/realisations/fondation-groupe-depeche/</guid>
+      <description>Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://thumbs.gfycat.com/LinearUniqueAlligator-size_restricted.gif.      Le plus grand défi de ce projet a été de s’adapter aux hésitations, aux retours et aux nombreux changements, ce y compris au cours de la phase de développement, dans des délais très courts.       La rubrique Métiers d’Occitanie a été la plus complexe à refondre.</description>
+    </item>
+    
+  </channel>
+</rss>

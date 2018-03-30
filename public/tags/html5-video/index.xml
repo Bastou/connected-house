@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html5 Video on Bastien</title>
+    <link>/tags/html5-video/</link>
+    <description>Recent content in Html5 Video on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Wed, 15 Jun 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/html5-video/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beside</title>
+      <link>/realisations/beside-consulting/</link>
+      <pubDate>Wed, 15 Jun 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/realisations/beside-consulting/</guid>
+      <description>Une des problématiques intéressantes était la gestion de la vidéo d’introduction sur la page d’accueil qui continue en fond à l’apparition des principales rubriques du site.    Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/PiercingEverlastingDodobird.gif.</description>
+    </item>
+    
+  </channel>
+</rss>

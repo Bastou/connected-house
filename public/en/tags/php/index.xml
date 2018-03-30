@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Php on Bastien</title>
+    <link>/en/tags/php/</link>
+    <description>Recent content in Php on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 15 Nov 2016 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/en/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SKLTN</title>
+      <link>/en/realisations/skltn/</link>
+      <pubDate>Tue, 15 Nov 2016 17:05:59 +0200</pubDate>
+      
+      <guid>/en/realisations/skltn/</guid>
+      <description>I was searching for a solution to avoid some dumb repetitions at the beginning of a website project. Whether I create without a base or retrieve code I had already done before, I was always wasting time. I wanted to have a simple and flexible project base with only the components that I need. I came up with the idea to merge the great possibilities of the css pre-processor SASS and the power of Yeoman to give a helping hand to the start up of projects.</description>
+    </item>
+    
+  </channel>
+</rss>

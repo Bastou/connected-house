@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Template 7 on Bastien</title>
+    <link>/tags/template-7/</link>
+    <description>Recent content in Template 7 on Bastien</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr</language>
+    <lastBuildDate>Sun, 15 Jan 2017 17:05:59 +0200</lastBuildDate>
+    
+	<atom:link href="/tags/template-7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sortir Agen</title>
+      <link>/realisations/sortir-agen/</link>
+      <pubDate>Sun, 15 Jan 2017 17:05:59 +0200</pubDate>
+      
+      <guid>/realisations/sortir-agen/</guid>
+      <description>L’application a été réalisée en HTML5 hybride avec Cordova. Cela a ainsi permis de combiner la flexibilité de Html5 et des fonctionnalités natives tel que la postion GPS, l’ajout d’événements au calendrier et le partage.    Sorry, you don&#39;t have HTML5 video and we didn&#39;t catch this properly in javascript. You can try to view the gif directly: https://zippy.gfycat.com/CavernousVengefulDiscus.gif.      J&#39;ai réalisé des cartes intéractives avec l&#39;api google maps pour découvrir les balades, sorties culturelles, sportives, les bars et restaurants de la ville :</description>
+    </item>
+    
+  </channel>
+</rss>

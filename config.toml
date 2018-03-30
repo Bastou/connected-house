@@ -1,0 +1,20 @@
+DefaultContentLanguage = "en"
+baseURL = "/" 
+# Dist :
+## baseURL = "https://dist.com/"
+title = "Connected House"
+theme = "tech-watch"
+description = "What happened in the the connected house sector since september 2017"
+Paginate = 4
+canonifyurls = true
+
+
+[[menu.main]]
+    name = "What is it ?"
+    weight = 1
+    identifier ="what-is-it"
+    url = "what-is-it/"
+[[menu.main]]
+    name = "Articles"
+    weight = 1
+    url  = "/articles/"

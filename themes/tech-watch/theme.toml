@@ -1,0 +1,17 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/spf13/hugoThemes#themetoml for an example
+
+name = "Tech Watch"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+tags = ["responsive", "themes", "professional", "modern"]
+features = ["Minimalism","Mobile-first Design",
+  "Responsive Design"]
+min_version = 0.19
+
+[author]
+  name = "bastien"
+  homepage = ""
+

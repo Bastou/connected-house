@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="207px" viewBox="0 0 1440 207" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <title>wave-top-back</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="MAQUETTES-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOMEPAGE---HORIZONTALE" fill="#080433">
+            <g id="WAVE">
+                <g transform="translate(-514.000000, -178.000000)" id="wave-top-back">
+                    <path d="M329,181.569641 C378.282256,317.138701 477.34118,384.898063 626.176771,384.847725 C849.430157,384.772218 1005.64605,103.275934 1217.44857,146.404056 C1429.25109,189.532178 1519.15189,285.926928 1627.63536,287.677314 C1736.11883,289.427699 1828.04082,192.847614 1915.75135,210.584852 C1974.22503,222.409677 2026.02289,205.333696 2071.14493,159.356908 L1937.89993,0.971059668 C1588.92274,19.2162527 1411.59576,29.1831528 1405.919,30.8717598 C1400.24224,32.5603668 1041.26924,82.7929939 329,181.569641 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
