@@ -4,7 +4,6 @@ function generateRandom() {
 
 function sum(a, b) {
     return a + b;
-}
-
+} 
 
 export { generateRandom, sum }

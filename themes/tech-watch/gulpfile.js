@@ -104,5 +104,6 @@ gulp.task('img', function ()  {
 __________________________________________*/
 
 gulp.task('default', function ()  {
-    gulp.watch(['./static/sass/**/*.scss', './static/js/**/*.js'], ['sass', 'es6']);
+    gulp.watch(['./static/js/**/*.js'], ['es6']);
+    gulp.watch(['./static/sass/**/*.scss'], ['sass']);
 });
