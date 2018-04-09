@@ -1,4 +1,11 @@
-import { generateRandom, sum } from './utility';
+//import { generateRandom, sum } from './utils';
+import sketch from './sketch';
+import Tools from './Tools';
 
-console.log(generateRandom()); //logs a random number
-console.log(sum(1, 10)); //3
+
+// global tools
+window.tools = new Tools();
+
+
+new p5(sketch, 'timeline');
+

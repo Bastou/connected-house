@@ -4,8 +4,10 @@ const $ = gulpLoadPlugins();
 const gutil = require('gulp-util'); //fonctions utilitaires pour les plugins Gulp
 const babelify = require('babelify');
 const browserify = require('browserify');
+const watchify = require('watchify');
 const source = require('vinyl-source-stream');
 const buffer = require('vinyl-buffer');
+const assign = require('lodash.assign');
 
 // Option autoprefixer
 const autoprefixerOptions = {
@@ -61,34 +63,63 @@ gulp.task('vscripts', function() {
         .pipe(gulp.dest(jsDest));
 });
 
-/*gulp.task('mainjs', function() {
-    return gulp.src('./static/js/main.js')
-        .pipe($.rename('main.min.js'))
-        .pipe($.uglify())
-        .pipe(gulp.dest(jsDest));
-});
-
-
-gulp.task('js:watch', function () {
-    gulp.watch('./static/js/!*.js', ['mainjs', 'tesljs']);
-});*/
 
 //Convert ES6 ode in all js files in src/js folder and copy to
 //build folder as bundle.js
-gulp.task('es6', function(){
-    return browserify('./static/js/main.js',{debug:true}).transform(babelify, {
+// gulp.task('es6', function(){
+//     return browserify('./static/js/main.js',{debug:true}).transform(babelify, {
+//         presets: ['es2015'],
+//         sourceMaps:true
+//     })
+//         .bundle()
+//         .pipe(source('all.js'))
+//         .pipe(buffer())
+//         .pipe($.sourcemaps.init({loadMaps: true}))
+//         .pipe($.uglify())
+//         .pipe($.sourcemaps.write('./'))
+//         .pipe(gulp.dest('./static/js/dist'))
+//         .pipe(gutil.noop())
+// })
+
+
+// JAVASCRIPT:APP
+
+// add custom browserify options here
+var customOpts = {
+    entries: ['./static/js/main.js'],
+    debug: true
+};
+var opts = assign({}, watchify.args, customOpts);
+var b = watchify(browserify(opts)
+// *** Transforms go here ***
+    .transform(babelify, {
         presets: ['es2015'],
         sourceMaps:true
-    })
-        .bundle()
-        .pipe(source('all.js'))
+    }));
+//var b = browserify(customOpts);
+
+// add transformations here
+// i.e. b.transform(coffeeify);
+
+gulp.task('es6', bundle); // so you can run `gulp js` to build the file
+//b.on('update', bundle); // on any dep update, runs the bundler
+b.on('log', function(msg){console.log(msg)}); // output build logs to terminal
+b.on('update', bundle);
+
+function bundle() {
+    return b.bundle()
+        .on('error', console.log)
+        .pipe(source('bundle.js'))
+        // optional, remove if you don't need to buffer file contents
         .pipe(buffer())
-        .pipe($.sourcemaps.init({loadMaps: true}))
-        .pipe($.uglify())
-        .pipe($.sourcemaps.write('./'))
-        .pipe(gulp.dest('./static/js/dist'))
-        .pipe(gutil.noop())
-})
+        // optional, remove if you dont want sourcemaps
+        //.pipe(sourcemaps.init({loadMaps: true})) // loads map from browserify file
+        // Add transformation tasks to the pipeline here.
+        //.pipe(sourcemaps.write('./')) // writes .map file
+        //.pipe($.uglify())
+        .pipe(gulp.dest(jsDest))
+        //.pipe(browserSync.stream());
+}
 
 
 /* IMG
@@ -104,6 +135,6 @@ gulp.task('img', function ()  {
 __________________________________________*/
 
 gulp.task('default', function ()  {
-    gulp.watch(['./static/js/**/*.js'], ['es6']);
+    gulp.watch(['./static/js/*.js'], ['es6']);
     gulp.watch(['./static/sass/**/*.scss'], ['sass']);
 });

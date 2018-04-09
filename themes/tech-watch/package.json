@@ -32,6 +32,9 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "eslint": "^4.19.1"
+    "eslint": "^4.19.1",
+    "lodash.assign": "^4.2.0",
+    "p5": "^0.6.0",
+    "watchify": "^3.11.0"
   }
 }
