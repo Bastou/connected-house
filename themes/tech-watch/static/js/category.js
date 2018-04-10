@@ -4,12 +4,19 @@
 
 export default class Category {
     constructor(props) {
-        this.name = props.name;
+        // p5
+        this.p = props.p;
+
+        // Props
+        this.id = props.id;
         this.color = props.color;
+        this.pColor = null;
         this.posY = props.posY;
+        this.pos = props.pos;
+
     }
 
     show() {
-
+        console.log('show');
     }
 }

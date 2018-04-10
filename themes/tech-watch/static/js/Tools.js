@@ -16,6 +16,15 @@ export default class Tools {
         }
         this.logPrevValue = value
     }
+    /*
+     *  slugifyUrl
+     *  get last part of url
+     *
+     */
+    getLastPartUrl(url) {
+        const re = '[^/]+(?=\/$|$)'
+        return url.match(re)[0];
+    }
 };
 
 

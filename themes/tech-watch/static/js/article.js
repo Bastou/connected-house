@@ -21,6 +21,7 @@ export default class Article {
         this.x = props.x;
         this.y = props.y;
         this.color = props.color;
+        this.pColor;
 
         // Article line if connected to another article
         this.hasLine = false;
@@ -52,6 +53,10 @@ export default class Article {
 
     }
 
+    init () {
+        this.setPcolor(this.color);
+    }
+
     clicked(px, py) {
         if(this.pointerInArticle(px,py)) {
             console.log('clicked on article' + '"' + this.title + '"');
@@ -59,7 +64,6 @@ export default class Article {
     }
 
     hovered(px, py) {
-
         if(this.pointerInArticle(px,py)) {
             // title in
             this.drawTitle();
@@ -88,13 +92,13 @@ export default class Article {
 
     show() {
         this.p.noStroke();
-        this.p.fill(this.color);
+        this.p.fill(this.pColor);
         this.p.push();
         this.p.ellipse(this.x, this.y, this._r);
         this.p.pop();
 
         if(this.hasLine) {
-            this.p.stroke(this.color);
+            this.p.stroke(this.pColor);
             this.p.strokeWeight(4);
             this.p.push();
             this.p.line(this.x, this.y, this.lineTo.x, this.lineTo.y);
@@ -105,8 +109,8 @@ export default class Article {
     drawCirclesAround(out = false) {
         if(out && this.aroundCircles.r === 0) return;
         this.p.noStroke();
-        this.color.setAlpha(40);
-        this.p.fill(this.color);
+        this.pColor.setAlpha(40);
+        this.p.fill(this.pColor);
         this.p.push();
         this.aroundCircles.forEach((c, i) => {
             // ease radius size
@@ -120,7 +124,7 @@ export default class Article {
             this.p.ellipse(c.x, c.y, c.r)
         });
         this.p.pop();
-        this.color.setAlpha(255);
+        this.pColor.setAlpha(255);
     }
 
     drawTitle(out = false) {
@@ -134,13 +138,17 @@ export default class Article {
             this.uiTitleP.started = true;
         }
         if(out) return;
-        this.color.setAlpha(this.uiTitleAlpha.a);
+        this.pColor.setAlpha(this.uiTitleAlpha.a);
         this.p.noStroke();
-        this.p.fill(this.color);
+        this.p.fill(this.pColor);
         this.p.push();
         this.p.textAlign(this.p.CENTER);
         this.p.text(this.title, this.x, this.y - 30);
         this.p.pop();
-        this.color.setAlpha(255);
+        this.pColor.setAlpha(255);
+    }
+
+    setPcolor(color) {
+        this.pColor = this.p.color(color);
     }
 }
