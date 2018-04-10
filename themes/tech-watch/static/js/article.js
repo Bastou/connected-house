@@ -22,6 +22,7 @@ export default class Article {
         this.y = props.y;
         this.color = props.color;
         this.pColor;
+        this.darkened = false;
 
         // Article line if connected to another article
         this.hasLine = false;
@@ -92,6 +93,9 @@ export default class Article {
 
     show() {
         this.p.noStroke();
+        if(this.darkened) {
+            this.pColor.setAlpha(40);
+        }
         this.p.fill(this.pColor);
         this.p.push();
         this.p.ellipse(this.x, this.y, this._r);
@@ -141,8 +145,9 @@ export default class Article {
         this.pColor.setAlpha(this.uiTitleAlpha.a);
         this.p.noStroke();
         this.p.fill(this.pColor);
-        this.p.push();
         this.p.textAlign(this.p.CENTER);
+        this.p.textSize(14);
+        this.p.push();
         this.p.text(this.title, this.x, this.y - 30);
         this.p.pop();
         this.pColor.setAlpha(255);

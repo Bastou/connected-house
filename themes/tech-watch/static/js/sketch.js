@@ -17,9 +17,13 @@ export default function( p ) {
     const catPosY = [
         (H/4 + 45),
         (H/3 + 45),
-        (H - H/4 - 45),
-        (H - H/3 - 45)
+        (H - H/3 - 45),
+        (H - H/4 - 45)
     ];
+    let font;
+    let states = {
+        'categorySelected': false,
+    }
 
     /////////////////////////
 
@@ -30,10 +34,11 @@ export default function( p ) {
 
     let categories = [];
     // Parse categories
-    datas.categories.forEach((c) => {
+    datas.categories.forEach((c, key) => {
         let currentCat = new Category(Object.assign(c,{p}));
         currentCat.posY = catPosY[c.pos - 1]; // Set Y pos
         categories.push(currentCat);
+        categories[key].init();
     });
 
     // categories = datas.categories.map(c => {
@@ -48,6 +53,9 @@ export default function( p ) {
 
     p.preload = function () {
 
+        // Load font
+        font = p.loadFont('./font/karla.ttf');
+
         // Get all articles from generated hugo json
         const url = '//' + window.location.host + '/articles/index.json';
         p.loadJSON(url, function (data) {
@@ -56,8 +64,6 @@ export default function( p ) {
                 let articleCategory = categories.filter( (el) => {
                     return el.id === article.categories[0]
                 });
-
-                //console.log(articleCategory[0].posY);
 
                 articles.push(
                     new Article({
@@ -75,7 +81,6 @@ export default function( p ) {
                     })
                 );
                 articles[key].init();
-                console.log(articles[key].color);
             })
         });
 
@@ -102,6 +107,9 @@ export default function( p ) {
         // CURSOR STATE
         p.cursor(p.ARROW);
 
+        // FONT
+        p.textFont(font);
+
         /////// MONTHS ////////
 
         // Months line
@@ -125,23 +133,63 @@ export default function( p ) {
             // text
             p.noStroke();
             p.fill(Pcolors.paleIlac);
-            p.push();
+            p.textSize(14);
             p.textAlign(p.CENTER);
+            p.push();
             p.text(datas.months[i], monthX, H/2+textOffest);
         }
         p.pop();
         /////////////////////////
 
+        /////// CATEGORIES ////////
+        categories.forEach( function (category) {
+            category.hovered(p.mouseX,p.mouseY);
+            category.show();
+
+            // click
+            if(category.isClicked) {
+                categories.forEach( function (category) {
+                    category.isClicked = false;
+                });
+                category.isClicked = true;
+            }
+
+            if(category.isClicked) {
+                states.categorySelected = true;
+                filterArticles(category);
+            } else {
+                states.categorySelected = false;
+            }
+
+            // hover
+            if(category.isHovered) {
+                filterArticles(category);
+            }
+
+            // select state
+            if(category.isHovered || category.isClicked) {
+                states.categorySelected = true;
+            } else {
+                states.categorySelected = false;
+            }
+
+            p.text(category.id + ': ' + states.categorySelected, 20 ,200 + 20 * category.pos);
+        });
+        /////////////////////////
+
+
         /////// ARTICLES ////////
         articles.forEach( function (article) {
             article.hovered(p.mouseX,p.mouseY);
             article.show();
+            if(!states.categorySelected) {
+                article.darkened = false;
+            }
         });
         /////////////////////////
 
         // TWEENS //////////////////
         TWEEN.update();
-
     };
 
     p.windowResized = function () {
@@ -157,6 +205,10 @@ export default function( p ) {
     function cvMousePressed () {
         articles.forEach( function (article) {
             article.clicked(p.mouseX,p.mouseY)
+        });
+        categories.forEach( function (category) {
+            category.isClicked = false;
+            category.clicked(p.mouseX,p.mouseY)
         });
     }
 
@@ -201,6 +253,16 @@ export default function( p ) {
         });
         // return pos in pixel
         return p.map(dateTimes[0], dateTimes[1], dateTimes[2], beginX, endX);
+    }
+
+    function filterArticles(category) {
+        articles.forEach( function (article) {
+            if(article.category !== category.id) {
+                article.darkened = true;
+            } else {
+                article.darkened = false;
+            }
+        });
     }
     ///////////////////////
 
