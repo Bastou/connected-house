@@ -53,11 +53,12 @@
      width: 100%;
      &:before, &:after {
        content: '';
-       height: 20rem;
+       height: 30rem;
        position: absolute;
        width: 100%;
        pointer-events: none;
        background-repeat: no-repeat;
+       background-size: contain;
        // TODO: responsive > 1900
      }
    }
@@ -87,7 +88,7 @@
             bottom: 0;
        }
        &:before {
-         height: 30rem;
+         height: 50rem;
 				 background-image: url(../img/wave-bottom-back.svg);
        }
        &:after {

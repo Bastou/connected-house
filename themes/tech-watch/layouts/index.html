@@ -10,5 +10,21 @@
     {{.Content}}
 </div>
 <div id="timeline"></div>
+<div id="tl-article-panel" class="tl-panel">
+    <div class="tl-panel-inner">
+        <p id="article-date" class="date">12-01-2018</p>
+        <h2 id="article-title">An ever more connected home on CES 2018</h2>
+        <div id="article-content"><p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dignissimos dolorem dolorum ex facere harum magni, sequi! Aperiam at atque consequatur doloribus eaque eius esse itaque non obcaecati omnis perferendis, quam quisquam, reprehenderit sed sit soluta unde voluptate? Accusantium aliquam assumenda beatae consequuntur culpa cupiditate dicta distinctio dolor dolore eligendi, enim expedita in ipsa laboriosam minus non obcaecati optio pariatur perferendis quae quaerat quidem quo repellendus, suscipit ullam voluptatem voluptates voluptatibus! Adipisci amet asperiores atque corporis culpa delectus deleniti dignissimos doloremque ea et ex exercitationem facere impedit in inventore minus nihil, nulla officia qui saepe, sint sunt suscipit vitae! Vero!</p></div>
+        <a id="article-link" href="#" class="link"><img src="/img/arrow.svg" with="20" alt=""><span>Source</span></a>
+        <button id="close-button" class="close">
+            <svg class="close-icon" xmlns="http://www.w3.org/2000/svg" width="47" height="47" viewBox="0 0 47 47">
+                <g fill="none" fill-rule="evenodd" transform="translate(1 1)">
+                    <circle cx="22.5" cy="22.5" r="22.5" stroke=""/>
+                    <path fill="" fill-rule="nonzero" d="M22.718 21.303L28.02 16l1.414 1.414-5.303 5.304 5.303 5.303-1.414 1.414-5.303-5.303-5.304 5.303L16 28.021l5.303-5.303L16 17.414 17.414 16l5.304 5.303z"/>
+                </g>
+            </svg>
+        </button>
+    </div>
+</div>
 {{ end }}
 {{ define "footer"}} {{ partial "footer" .}} {{end}}

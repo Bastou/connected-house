@@ -21,3 +21,9 @@ canonifyurls = true
 
 [outputs]
 	section = [ "HTML", "JSON"]
+
+
+[Languages.en]
+weight = 1
+languageCode = "en"
+languageName = "English"

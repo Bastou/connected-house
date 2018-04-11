@@ -49,7 +49,6 @@ export default class Category {
 
     hovered(px, py) {
         if(this.pointerInCategory(px,py)) {
-            console.log('hovered', this.id);
             this.p.cursor(this.p.HAND);
             this.isHovered = true;
         } else {
@@ -59,7 +58,6 @@ export default class Category {
 
     clicked(px, py) {
         if(this.pointerInCategory(px,py)) {
-            console.log('click', this.id);
             this.isClicked = true;
         }
     }
@@ -90,4 +88,6 @@ export default class Category {
             h: this._r
         }
     }
+
+    // TODO: Add hover circles
 }
