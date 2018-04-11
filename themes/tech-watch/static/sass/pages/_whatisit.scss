@@ -48,7 +48,7 @@
     .intro {   
         width: 55%;
         margin: 0 auto; 
-        margin-bottom: 350px;
+        margin-bottom: 250px;
 
         p { 
             text-align: center;
@@ -71,6 +71,7 @@
         width: 85%;
         margin: 0 auto; 
         margin-bottom: 100px;
+        position: relative;
         display: flex;
         flex-flow: column nowrap;
         align-items: flex-end;
@@ -91,14 +92,15 @@
             text-align: left; 
             color: $pale-lilac;
         }
-    }
-    
-    .svg-container {
-        position: absolute;
-        top: -100px;
-        left: 0px;
-        height: 1000px;
-        width: 1000px; 
+
+        .svg-container { 
+            position: absolute;
+            top: -100px;
+            left: -80px;
+            height: 500px;
+            width: 700px; 
+            z-index: 9;
+        }
     }
 
     .section-2 {

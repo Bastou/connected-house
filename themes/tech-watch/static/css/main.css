@@ -1140,6 +1140,7 @@ body {
   width: 85%;
   margin: 0 auto;
   margin-bottom: 100px;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1166,6 +1167,13 @@ body {
     line-height: 1.33;
     text-align: left;
     color: #e5e3ff; }
+  #what-is-it .section-1 .svg-container {
+    position: absolute;
+    top: -100px;
+    left: -80px;
+    height: 500px;
+    width: 700px;
+    z-index: 9; }
 #what-is-it .section-2 {
   margin-bottom: 200px; }
   #what-is-it .section-2 p {
