@@ -9,6 +9,9 @@ p5.prototype.dashedLine = dashedLine;
 
 // Setup timeline
 export default function( p ) {
+    let articles = [];
+    let categories = [];
+    let font;
 
     // TIMELINE CONFIGS /////////
     const padding = [0, 80];
@@ -20,19 +23,40 @@ export default function( p ) {
         (H - H/3 - 45),
         (H - H/4 - 45)
     ];
-    let font;
-    let states = {
+    p.tlStates = {
         'categorySelected': false,
+        'panelOpened': false,
+        'loaded': false
+    };
+    // END TIMELINE CONFIGS ///////
+
+    // TL PANEL ////////////
+    const uiPanel = {
+        'container' : document.getElementById('tl-article-panel'),
+        'date' : document.getElementById('article-date'),
+        'title' : document.getElementById('article-title'),
+        'content' : document.getElementById('article-content'),
+        'link' : document.getElementById('article-link'),
+        'closeButton' : document.getElementById('close-button'),
+    };
+
+    // Ui close on button click
+    uiPanel.closeButton.addEventListener('click', () => { closePanel() });
+
+    function closePanel() {
+        if(uiPanel.container.classList.contains('open')) {
+            uiPanel.container.classList.remove('open');
+            p.tlStates.panelOpened = false;
+        }
     }
 
-    /////////////////////////
+    // SETUP P5 DATAS ////////
 
     let Pcolors = Object.keys(datas.colors).reduce(function(previous, current) {
         previous[current] = p.color(datas.colors[current]);
         return previous;
     }, {});
 
-    let categories = [];
     // Parse categories
     datas.categories.forEach((c, key) => {
         let currentCat = new Category(Object.assign(c,{p}));
@@ -41,12 +65,8 @@ export default function( p ) {
         categories[key].init();
     });
 
-    // categories = datas.categories.map(c => {
-    //     return new Category(Object.assign(c,{p}));
-    // });
     /////////////////////////
 
-    let articles = [];
     // END TIMELINE CONFIGS /////////
 
     let cv = null;
@@ -77,7 +97,8 @@ export default function( p ) {
                         color: articleCategory[0].color,
                         // TODO: make in article
                         x: setDateToPosX(article.date,datas.dateRange[0],datas.dateRange[1],padding[1], W - padding[1]),
-                        y: articleCategory[0].posY
+                        y: articleCategory[0].posY,
+                        uiPanel: uiPanel
                     })
                 );
                 articles[key].init();
@@ -93,15 +114,13 @@ export default function( p ) {
 
     p.setup = function() {
         cv = p.createCanvas(W, H);
-        cv.mousePressed(cvMousePressed);
+        cv.mouseClicked(cvMouseClicked);
 
-
-        // TODO: move away
         setupArticlesLines();
     };
 
     p.draw = function() {
-        //p.background('#020126');
+
         p.clear();
 
         // CURSOR STATE
@@ -142,6 +161,8 @@ export default function( p ) {
         /////////////////////////
 
         /////// CATEGORIES ////////
+
+        // Click filter
         categories.forEach( function (category) {
             category.hovered(p.mouseX,p.mouseY);
             category.show();
@@ -155,12 +176,15 @@ export default function( p ) {
             }
 
             if(category.isClicked) {
-                states.categorySelected = true;
+                p.tlStates.categorySelected = true;
                 filterArticles(category);
             } else {
-                states.categorySelected = false;
+                p.tlStates.categorySelected = false;
             }
+        });
 
+        // Hover filter
+        categories.forEach( function(category) {
             // hover
             if(category.isHovered) {
                 filterArticles(category);
@@ -168,12 +192,11 @@ export default function( p ) {
 
             // select state
             if(category.isHovered || category.isClicked) {
-                states.categorySelected = true;
+                p.tlStates.categorySelected = true;
             } else {
-                states.categorySelected = false;
+                p.tlStates.categorySelected = false;
             }
 
-            p.text(category.id + ': ' + states.categorySelected, 20 ,200 + 20 * category.pos);
         });
         /////////////////////////
 
@@ -182,7 +205,7 @@ export default function( p ) {
         articles.forEach( function (article) {
             article.hovered(p.mouseX,p.mouseY);
             article.show();
-            if(!states.categorySelected) {
+            if(!p.tlStates.categorySelected) {
                 article.darkened = false;
             }
         });
@@ -197,12 +220,12 @@ export default function( p ) {
         H = p.windowHeight;
         p.resizeCanvas(W, H);
 
-        // TODO: re-calcul article pos
+        // TODO: re-calcul article pos and categories pos
     };
 
     // INTERACTIONS //////////////////
 
-    function cvMousePressed () {
+    function cvMouseClicked () {
         articles.forEach( function (article) {
             article.clicked(p.mouseX,p.mouseY)
         });
@@ -210,6 +233,7 @@ export default function( p ) {
             category.isClicked = false;
             category.clicked(p.mouseX,p.mouseY)
         });
+        return false;
     }
 
     // Les traits !
@@ -255,6 +279,11 @@ export default function( p ) {
         return p.map(dateTimes[0], dateTimes[1], dateTimes[2], beginX, endX);
     }
 
+    /*
+     * filterArticles
+     *
+     * Set article opacity with selected categories
+     */
     function filterArticles(category) {
         articles.forEach( function (article) {
             if(article.category !== category.id) {

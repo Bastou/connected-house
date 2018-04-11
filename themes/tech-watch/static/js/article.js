@@ -22,11 +22,19 @@ export default class Article {
         this.y = props.y;
         this.color = props.color;
         this.pColor;
+        this.colorAlpha = {
+            a:0,
+            in: 0,
+            out:255
+        };
         this.darkened = false;
+
+        // panel
+        this.uiPanel = props.uiPanel;
 
         // Article line if connected to another article
         this.hasLine = false;
-        this.lineTo = {x:0,y:0}
+        this.lineTo = {x:0,y:0};
 
         // private
         this._r = 10;
@@ -52,6 +60,9 @@ export default class Article {
             'started': false
         };
 
+        // Is onTop
+        this.isOnTop = false; // Si articles de la même date alors le précédent au dessus
+
     }
 
     init () {
@@ -60,7 +71,7 @@ export default class Article {
 
     clicked(px, py) {
         if(this.pointerInArticle(px,py)) {
-            console.log('clicked on article' + '"' + this.title + '"');
+            this.openPanel();
         }
     }
 
@@ -92,10 +103,16 @@ export default class Article {
     }
 
     show() {
+        // Animate alpha
+        this.colorAlpha.a += ( this.colorAlpha.out - this.colorAlpha.a) * 0.19;
+
         this.p.noStroke();
         if(this.darkened) {
-            this.pColor.setAlpha(40);
+            this.colorAlpha.out = 40;
+        } else {
+            this.colorAlpha.out = 255;
         }
+        this.pColor.setAlpha(this.colorAlpha.a);
         this.p.fill(this.pColor);
         this.p.push();
         this.p.ellipse(this.x, this.y, this._r);
@@ -155,5 +172,15 @@ export default class Article {
 
     setPcolor(color) {
         this.pColor = this.p.color(color);
+    }
+
+    openPanel() {
+        this.uiPanel.date.innerText = new Date(this.date).toLocaleDateString();
+        this.uiPanel.title.innerText = this.title;
+        this.uiPanel.content.innerHTML = this.html;
+        this.uiPanel.link.setAttribute('href', this.url);
+        this.uiPanel.closeButton.style.color = this.color;
+        this.uiPanel.container.classList.add('open');
+        this.p.tlStates.panelOpened = true;
     }
 }

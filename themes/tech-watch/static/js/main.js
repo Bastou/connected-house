@@ -6,6 +6,7 @@ import Tools from './Tools';
 // global tools
 window.tools = new Tools();
 
-
-new p5(sketch, 'timeline');
+if(document.getElementById('timeline')) {
+    new p5(sketch, 'timeline');
+}
 

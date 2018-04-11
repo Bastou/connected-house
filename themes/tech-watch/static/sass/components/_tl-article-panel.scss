@@ -1,0 +1,90 @@
+/* $PANEL
+========================================================================== */
+
+.tl-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  z-index:20;
+  right: 0;
+  top:0;
+  bottom:0;
+  background: #030028;
+  max-width: 450px;
+  width:100%;
+  overflow: scroll;
+  @include rem('font-size', 1.6rem);
+  transform: translate3D(101%,0,0);
+  transition: transform 0.5s ease-in-out;
+  &.open {
+    transform: translate3D(0,0,0);
+  }
+
+  .date {
+    opacity: 0.3;
+    margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  h2 {
+    margin-top:10px;
+    @include rem('font-size', 2.8rem);
+    transition: all 0.3s ease-in-out 0.05s;
+  }
+  #article-content {
+
+  }
+  .link {
+    display: block;
+    margin-bottom:45px;
+    > span {
+      padding-bottom: 2px;
+      border-bottom: 3px solid transparent;
+      transition: all 0.3s ease-in;
+    }
+    img {
+      position: relative;
+      top: 2px;
+      margin-right: 15px;
+    }
+    &:hover {
+      span {
+        border-color: $base-color;
+      }
+    }
+  }
+  .close {
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: transparent;
+    margin: 0 auto;
+  }
+  #close-button {
+    color: #04BEFE;
+    path {
+      fill: currentColor;
+      transition: all 0.3s ease-in;
+    }
+    circle {
+      stroke: currentColor;
+      transition: all 0.3s ease-in-out;
+    }
+    &:hover, &:focus {
+      circle {
+        fill: currentColor;
+      }
+      path {
+        fill: #030028;
+      }
+    }
+  }
+}
+
+.tl-panel-inner {
+  padding: 50px;
+}
+
+
+
