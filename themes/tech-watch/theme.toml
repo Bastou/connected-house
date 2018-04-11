@@ -10,6 +10,7 @@ tags = ["responsive", "themes", "professional", "modern"]
 features = ["Minimalism","Mobile-first Design",
   "Responsive Design"]
 min_version = 0.19
+DefaultContentLanguage = "en"
 
 [author]
   name = "bastien"
