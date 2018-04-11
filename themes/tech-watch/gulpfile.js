@@ -30,7 +30,6 @@ gulp.task('sass', function() {
             console.error('Error!', err.message);
         })
         .pipe($.autoprefixer(autoprefixerOptions))
-        .pipe($.sourcemaps.write('.'))
         .pipe(gulp.dest('./static/css'))
         .on('end', function(){
             gutil.log('La tâche SASS est terminée.');

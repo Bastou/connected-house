@@ -23,7 +23,8 @@
  *  5. PAGES
  *    - 5.1. ACCUEIL
  *    - 5.2. SITEMAP
-
+ *    - 5.3. WHAT IS IT 
+ 
  */
 
  /*
@@ -32,7 +33,7 @@
   *
   *
   */
-
+   
 
 
 
@@ -92,6 +93,7 @@
 // // Page-specific stylesheets
 @import "pages/accueil";
 @import "pages/sitemap";
+@import "pages/whatisit";
 
 
 /* ==========================================================================
