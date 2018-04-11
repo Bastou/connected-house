@@ -23,7 +23,8 @@
  *  5. PAGES
  *    - 5.1. ACCUEIL
  *    - 5.2. SITEMAP
-
+ *    - 5.3. WHAT IS IT 
+ 
  */
 /*
  * Note: Use $section-name to search a specific section
@@ -579,11 +580,10 @@ figure.highlight {
 /* ==admin dev classes */
 /* For debbuging purpose */
 /* ---------------------------------- */
-.dev,
-.hidden-dev {
+.dev, .hidden-dev {
   display: none; }
-  .devmode .dev, .devmode
-  .hidden-dev {
+  .devmode .dev,
+  .devmode .hidden-dev {
     display: block; }
 
 /* ==========================================================================
@@ -1086,6 +1086,140 @@ body {
 
 /* $SITEMAP
 ========================================================================== */
+#what-is-it h3 {
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 52px;
+  font-weight: bold;
+  text-align: center;
+  color: #e5e3ff; }
+#what-is-it p {
+  opacity: 0.8;
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 21px;
+  line-height: 1.33;
+  color: #e5e3ff; }
+#what-is-it .dash {
+  width: 64px;
+  height: 3px;
+  background: -webkit-linear-gradient(184deg, #4481eb, #04befe);
+  background: linear-gradient(266deg, #4481eb, #04befe);
+  margin: 0 auto; }
+#what-is-it .back {
+  display: block;
+  font-family: "Karla", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #e5e3ff;
+  padding-left: 40px;
+  position: relative; }
+  #what-is-it .back:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 18px;
+    height: 13px;
+    background: url("../img/back.svg"); }
+#what-is-it .intro {
+  width: 55%;
+  margin: 0 auto;
+  margin-bottom: 250px; }
+  #what-is-it .intro p {
+    text-align: center;
+    line-height: 1.66; }
+  #what-is-it .intro .anchor {
+    display: block;
+    margin-top: 100px; }
+    #what-is-it .intro .anchor img {
+      display: block;
+      margin: 0 auto; }
+#what-is-it .section-1 {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end; }
+  #what-is-it .section-1 h2 {
+    width: 600px;
+    opacity: 0.2;
+    font-family: "Karla", Arial, sans-serif;
+    font-size: 92px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #e5e3ff; }
+  #what-is-it .section-1 p {
+    width: 514px;
+    line-height: 1.33;
+    text-align: left;
+    color: #e5e3ff; }
+#what-is-it .section-2 {
+  margin-bottom: 200px; }
+  #what-is-it .section-2 p {
+    opacity: 0.5;
+    font-family: "Karla", Arial, sans-serif;
+    font-size: -webkit-calc((100vw - (10 * 23.9px))/ 6);
+    font-size: calc((100vw - (10 * 23.9px))/ 6);
+    font-weight: bold;
+    letter-spacing: 23.9px;
+    text-align: center;
+    color: #e5e3ff;
+    line-height: 1; }
+  #what-is-it .section-2 p:nth-child(1) {
+    opacity: 0.05; }
+  #what-is-it .section-2 p:nth-child(2) {
+    opacity: 0.15; }
+  #what-is-it .section-2 p:nth-child(3) {
+    opacity: 0.3; }
+  #what-is-it .section-2 p:nth-child(4) {
+    opacity: 0.5; }
+#what-is-it .section-3 {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 300px; }
+  #what-is-it .section-3 h2 {
+    opacity: 0.2;
+    font-family: "Karla", Arial, sans-serif;
+    font-size: 92px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #e5e3ff; }
+  #what-is-it .section-3 p {
+    width: 514px; }
+#what-is-it .foot {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 150px;
+  background-color: #030028; }
+  #what-is-it .foot p {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 2px; }
+
 /* ==========================================================================
    $THEMES
    ========================================================================== */
