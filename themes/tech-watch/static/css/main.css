@@ -1197,7 +1197,8 @@ body {
 #what-is-it .section-3 {
   width: 90%;
   margin: 0 auto;
-  margin-bottom: 300px; }
+  margin-bottom: 300px;
+  position: relative; }
   #what-is-it .section-3 h2 {
     opacity: 0.2;
     font-family: "Karla", Arial, sans-serif;
@@ -1207,6 +1208,12 @@ body {
     color: #e5e3ff; }
   #what-is-it .section-3 p {
     width: 514px; }
+  #what-is-it .section-3 .svg-container-2 {
+    position: absolute;
+    top: -100px;
+    right: -80px;
+    height: 500px;
+    width: 700px; }
 #what-is-it .foot {
   display: -webkit-box;
   display: -webkit-flex;

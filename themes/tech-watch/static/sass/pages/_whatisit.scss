@@ -135,6 +135,7 @@
         width: 90%;
         margin: 0 auto;
         margin-bottom: 300px;
+        position: relative;
 
         h2 {
             opacity: 0.2;
@@ -148,6 +149,14 @@
         p {
             width: 514px;
 
+        }
+
+        .svg-container-2 { 
+            position: absolute;
+            top: -100px;
+            right: -80px;
+            height: 500px;
+            width: 700px; 
         }
     }
 
