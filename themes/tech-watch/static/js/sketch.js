@@ -14,7 +14,9 @@ export default function( p ) {
     let font;
 
     // TIMELINE CONFIGS /////////
-    const siteUrl = '//' + window.location.host + '/connected-house/';
+    const urlSub = '/';
+    const urlSubDist = '/connected-house/';
+    const siteUrl = '//' + window.location.host + urlSub;
     const articlesUrl = siteUrl + '/articles/index.json';
     const padding = [0, 80];
     let W = p.windowWidth;
@@ -265,7 +267,7 @@ export default function( p ) {
         datas.categories.forEach(category => {
             articles.forEach(article => {
                 if(article.category === category.id) {
-                    if(lastMonth === new Date(article.date).getMonth() + 1 && !wasOnTop) {
+                    if(lastMonth === new Date(article.date).getMonth() + 1) {
                         article.hasLine = true;
                         article.lineTo.x = lastCoords.x;
                         article.lineTo.y = lastCoords.y;
@@ -286,9 +288,9 @@ export default function( p ) {
             articles.forEach((article, key) => {
                 if(article.category === category.id) {
                     if(lastArticle && lastArticle.date === article.date) {
-                        article.isOnTop = true;
+                        article.afterOnTop = true;
                         if(key >= 0) {
-                            lastArticle.afterOnTop = true;
+                            lastArticle.isOnTop = true;
                         }
                     }
                     lastArticle = article;

@@ -13,7 +13,6 @@
   background: rgba(#030028, 0.9);
   max-width: 450px;
   width:100%;
-  overflow: scroll;
   @include rem('font-size', 1.6rem);
   transform: translate3D(101%,0,0);
   transition: transform 0.5s ease-in-out;
@@ -33,7 +32,7 @@
   }
   #article-content {
     max-height: 370px;
-    overflow: scroll;
+    overflow: hidden;
     margin-bottom: 20px;
   }
   .link {

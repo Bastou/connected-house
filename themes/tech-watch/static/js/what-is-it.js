@@ -14,7 +14,7 @@ if (document.getElementById('what-is-it')) {
 	var blob1 = createBlob({
 		element: document.querySelector("#path1"),
 		numPoints: 25,
-		centerX: 500,
+		centerX: 500, 
 		centerY: 500,
 		minRadius: 300,
 		maxRadius: 375,
