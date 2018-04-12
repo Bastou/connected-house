@@ -30,6 +30,7 @@ gulp.task('sass', function() {
             console.error('Error!', err.message);
         })
         .pipe($.autoprefixer(autoprefixerOptions))
+        //.pipe($.uglify())
         .pipe(gulp.dest('./static/css'))
         .on('end', function(){
             gutil.log('La tâche SASS est terminée.');
@@ -115,7 +116,7 @@ function bundle() {
         //.pipe(sourcemaps.init({loadMaps: true})) // loads map from browserify file
         // Add transformation tasks to the pipeline here.
         //.pipe(sourcemaps.write('./')) // writes .map file
-        //.pipe($.uglify())
+        .pipe($.uglify())
         .pipe(gulp.dest(jsDest))
         //.pipe(browserSync.stream());
 }
