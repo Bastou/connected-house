@@ -1,0 +1,510 @@
+{
+"version" : "https://jsonfeed.org/version/1",
+"title" : "Articles on Connected House",
+"description": "Recent content in Articles on Connected House",
+"home_page_url" : "/",
+"articles" : [
+
+{
+"id": "/articles/ai-carrefour/",
+"url": "/articles/ai-carrefour/",
+"link": "https://www.objetconnecte.net/assistant-connecte-carrefour-google/",
+"title": "The AI by Carrefour",
+"date_published": "2018-03-26T00:00:00Z",
+"date": "2018-03-26T00:00:00Z",
+"content_html": "\u003cp\u003eConnected assistants take an increasingly important place in everyday life. If some giants have already invested heavily in this area, such as Amazon with Echo and Alexa, new competitors in the dance. Thus, this Monday, March 26 saw the Carrefour group announce the arrival of this technology in its stores.\u003c/p\u003e\n\n\u003cp\u003eIn collaboration with Google, Léa\u0026rsquo;s goal is clear: to help buyers while shading the competition. Seeking to offer a more innovative way to access its products, Carrefour unveils Léa. Léa allow you to \u0026ldquo;manage the shopping lists on the sites and applications Drive and Ooshop, only by using the voice\u0026rdquo;.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTEwNzA2MjM1NTFdfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/study-warns-smart-home-devices-can-be-hacked-with-a-simple-google-search/",
+"url": "/articles/study-warns-smart-home-devices-can-be-hacked-with-a-simple-google-search/",
+"link": "https://newatlas.com/iot-smart-home-hacked-passwords-bgu/53816/",
+"title": "Study warns smart home devices can be hacked with a simple Google search",
+"date_published": "2018-03-15T00:00:00Z",
+"date": "2018-03-15T00:00:00Z",
+"content_html": "\u003cp\u003eWith the increasing proliferation of smart devices in our homes, security researchers are constantly uncovering fundamental vulnerabilities in these off-the-shelf products. A new report from a team at Ben-Gurion University has revealed that many of these devices are remarkably insecure and can be compromised easily in less than 30 minutes.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbODY2NTcxNzAwXX0=\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/smart-device-security-guidelines-need-more-teeth/",
+"url": "/articles/smart-device-security-guidelines-need-more-teeth/",
+"link": "http://www.bbc.com/news/technology-43305346",
+"title": "Smart device security guidelines 'need more teeth'",
+"date_published": "2018-03-07T00:00:00Z",
+"date": "2018-03-07T00:00:00Z",
+"content_html": "\u003cp\u003eThe UK government has announced guidelines to make internet-connected devices safer to use following a spate of security breaches but thoses guidelines would not stop manufacturers. It misses to much to be a great use but it\u0026rsquo;s a good start.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTY4NzQ1MDM1NywtMTA0MjU3OTY2MF19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/babcok-ranch-connected-city/",
+"url": "/articles/babcok-ranch-connected-city/",
+"link": "http://www.ladn.eu/tech-a-suivre/habitat-et-villes-connectes/bus-sans-conducteur-panneaux-solaires-voici-la-ville-vraiment-intelligente/",
+"title": "Babcok Ranch, the connected city of the future",
+"date_published": "2018-03-01T00:00:00Z",
+"date": "2018-03-01T00:00:00Z",
+"content_html": "\u003cp\u003eSyd Kitson is an american billionaire who wanted to build a city where every services were connected and accessible to everyone. He has started to create the city “Babcok Ranch” in Florida. The main thing for him was to create an electricity network based on solar energy. He built a solar electric factory. There are also metallic trees with solar panels, located next to homes to supply power to them. Thanks to that, the homes are self-sustaining. In the city, there are also autonomous and connected electric buses.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTY0ODQ1MzYxNV19\n--\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/smart-home-what-will-the-houses-of-tomorrow-look-like_/",
+"url": "/articles/smart-home-what-will-the-houses-of-tomorrow-look-like_/",
+"link": "https://mbamci.com/smart-home-a-quoi-ressemblera-la-maison-de-demain/",
+"title": "Smart Home, What will the houses of tomorrow look like?",
+"date_published": "2018-03-01T00:00:00Z",
+"date": "2018-03-01T00:00:00Z",
+"content_html": "\u003cp\u003eState of play of connected home consumption of French\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/kaspersky-lab-discovers-smart-home-hub-vulnerable-to-remote-attacks/",
+"url": "/articles/kaspersky-lab-discovers-smart-home-hub-vulnerable-to-remote-attacks/",
+"link": "https://www.informationsecuritybuzz.com/news/smart-hack-kaspersky-lab-discovers-smart-home-hub-vulnerable-remote-attacks/",
+"title": "Kaspersky Lab Discovers Smart Home Hub Vulnerable To Remote Attacks",
+"date_published": "2018-02-28T00:00:00Z",
+"date": "2018-02-28T00:00:00Z",
+"content_html": "\u003cp\u003eKaspersky Lab researchers have discovered vulnerabilities in a smart hub used to manage all the connected modules and sensors installed in the home. Analysis reveals that it is possible for a remote attacker to access the product’s server and download an archive containing the personal data of arbitrary users, which is needed to access their account and take control over their home systems as a result.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbOTI1NTE0Nzc3XX0=\n--\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/vision-assistant-piccolo/",
+"url": "/articles/vision-assistant-piccolo/",
+"link": "https://techcrunch.com/2018/02/28/piccolo-is-building-a-gesture-based-smart-home-vision-assistant/",
+"title": "The smarthome vision assistant by Piccolo",
+"date_published": "2018-02-28T00:00:00Z",
+"date": "2018-02-28T00:00:00Z",
+"content_html": "\u003cp\u003eVoice assistants may be the hottest thing since sliced bread when it comes to controlling your $60 Wi-Fi light bulbs, but Piccolo is launching out of the latest Y Combinator class with a desire to put a camera in every smart home that can translate your physical motions and gestures into commands.\u003c/p\u003e\n\n\u003cp\u003eThe company’s “Vision Assistant” product works pretty simply: Users place the camera in their house and then once they get it fixed in position, they fire up the app and drag boxes over the internet-connected appliances or TVs or lights. From there, the Piccolo camera is basically looking to record your geometry through what’s called skeletal tracking — don’t worry it’s not using an X-ray or anything — which puts your movement into a model that tracks your body position. From there, the device will know where you’re pointing your hand and can interface with the compatible smart home item. It does more than just turn stuff on and off, they’re experimenting with gestures to fast-forward through a Netflix show, change modes on the fan, etc.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbNDM5MjYyODM4XX0=\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices/",
+"url": "/articles/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices/",
+"link": "http://electronics360.globalspec.com/article/11234/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices",
+"title": "70 Percent of Americans Fear Getting Hacked Through Smart Home Devices",
+"date_published": "2018-02-26T00:00:00Z",
+"date": "2018-02-26T00:00:00Z",
+"content_html": "\u003cp\u003eDespite the rapid advances in the smart home and internet of things (IoT) devices, security of these devices remains the top concern among consumers, according to a new survey from iQor, a global managed services provider.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTkxMTI0MjQ2OCw0OTcyNjYzNTFdfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/connected-house-that-favors-the-french_/",
+"url": "/articles/connected-house-that-favors-the-french_/",
+"link": "http://www.batiweb.com/actualites/vie-des-societes/maison-connectee-que-privilegient-les-francais-26-02-2018-32088.html",
+"title": "Connected house that favors the French?",
+"date_published": "2018-02-26T00:00:00Z",
+"date": "2018-02-26T00:00:00Z",
+"content_html": "\u003cp\u003eBosch Smart Home has unveiled the results of its study on the buying behavior of French for the connected home. Of the 1,000 respondents, one-third bought and regularly use at least one connected product for their home. What do consumers prefer? The choice of a product is based on three pillars: practicality and comfort (27%), the gain in terms of safety (23%) and product design (17%). All the details.\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/3-800-cyber-attacks-on-the-smart-home-daily-a-forum-about-cyber-security-solutions/",
+"url": "/articles/3-800-cyber-attacks-on-the-smart-home-daily-a-forum-about-cyber-security-solutions/",
+"link": "http://securitymiddleeast.com/2018/02/23/3800-cyber-attacks-smart-home-daily-cyber-security-solutions-smart-buildings-intersec-forum/",
+"title": "3,800 cyber-attacks on the smart home daily: it and cyber-security solutions for smart buildings at the intersec forum",
+"date_published": "2018-02-23T00:00:00Z",
+"date": "2018-02-23T00:00:00Z",
+"content_html": "\u003cp\u003e50 billion items of IoT equipment and 3,800 cyber-attacks on the smart home every day: these are the figures which experts in IT and cyber security deal with when considering the development of solutions for smart and secure buildings in the future.\nAt the Intersec Forum the developers, providers and users of connected security technology in building automation will be joining the discussion. The conference will be taking place on five days from 19 to 23 March 2018 in Frankfurt am Main.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTQ1MTc5ODY2Nl19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/bio-pool-tech/",
+"url": "/articles/bio-pool-tech/",
+"link": "https://www.objetconnecte.com/bio-pool-tech-startup/",
+"title": "Bio Pool Tech, the connected and ecological swimming pool",
+"date_published": "2018-02-23T00:00:00Z",
+"date": "2018-02-23T00:00:00Z",
+"content_html": "\u003cp\u003eThis article is very interesting because it shows an other vision of the connected home : the connected garden and more precisely, the swimming pool. This project is a creation of the french startup Bio Pool Tech. They wanted to revolutionize swimming pools as well as the innovative technological solution on the whole. According to them, Bio Pool Tech is the swimming pool 3.0 because it’s connected to a smartphone which notifies its users about the proper operation of equipment such as security around the pool.\u003c/p\u003e\n\n\u003cp\u003eIt allows an autonomous and automatic management of consumables.\nBut it’s also an ecological innovation because the pool comes with an ecological system of bio-filtration which cuts down the consumption of water and electricity of a normal swimming pool by 75%.\nThe Bio Pool Tech pools 3.0 are ecological, economical and self contained. The project has been presented during the Las Vegas CES (Consumer Electronic Show) 2018 and the startup got a very positive return.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbODk5MzI1MjI0XX0=\n--\u003e\u003c/p\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/homepod-apple/",
+"url": "/articles/homepod-apple/",
+"link": "https://www.apple.com/fr/homepod/",
+"title": "Welcome HomePod !",
+"date_published": "2018-02-14T00:00:00Z",
+"date": "2018-02-14T00:00:00Z",
+"content_html": "\u003cp\u003eA statement announces a release of HomePod for February 9, initially for England, the United States and Australia. Other countries in the world, including France, should follow in the coming months, especially around spring. Online orders will start on January 26th. As a reminder, the Apple HomePod works as its connected competitors and can communicate through his voice with Siri (that iPhone users and other iPads know all too well!).\nThe known price of HomePod in the United States is $ 349, or € 285. Price that could be totally different once the connected speaker is available in France. With its HomePod, Apple promises a reinvented music experience. For this, the speaker can connect to the Apple Music to better manage the songs with a much-awaited sound quality.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTM3MDczMzg4Nl19\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/dreamlight-sleep/",
+"url": "/articles/dreamlight-sleep/",
+"link": "https://www.wareable.com/health-and-wellbeing/dreamlight-sleeping-mask-3932",
+"title": "Dreamlight improves your sleep",
+"date_published": "2018-02-09T00:00:00Z",
+"date": "2018-02-09T00:00:00Z",
+"content_html": "\u003cp\u003eHow many times a week do you wake up feeling groggy? And how many times do you hit snooze before clambering out of bed? If the answer is more often than not, it\u0026rsquo;s likely you\u0026rsquo;ve tried to rectify the issue with either more hours in the sack or a more consistent sleeping pattern. Perhaps you\u0026rsquo;ve even employed the help of a sleep tracker to help log how your body is operating during the night.\u003c/p\u003e\n\n\u003cp\u003eAnd if so, you\u0026rsquo;ll already know that trackers aren\u0026rsquo;t necessarily the best solution to help understand the rest your body requires and, in turn, feel more refreshed when you wake up. And it\u0026rsquo;s an issue that Shenzhen-based startup Dreamlight is aiming to tackle head-on - literally.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTk3MTEwMjcxNV19\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/a-lock-that-unlocks-with-the-phone-flash/",
+"url": "/articles/a-lock-that-unlocks-with-the-phone-flash/",
+"link": "https://www.lesnumeriques.com/objet-connecte/havr-bright-lock-p42913/serrure-havr-brightlock-flash-votre-porte-ouvre-n70857.html",
+"title": "A lock that unlocks with the phone flash",
+"date_published": "2018-01-26T00:00:00Z",
+"date": "2018-01-26T00:00:00Z",
+"content_html": "\u003cp\u003ePresented at CES 2018, the Havr Brightlock lock offers an interesting alternative to connected locks. Instead of using the Bluetooth or Wi-Fi protocols to communicate with the user\u0026rsquo;s smartphone, the device\u0026rsquo;s camera flash triggers the opening.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTE4NTgxMDU0OTJdfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/an-ever-more-connected-home-on-ces-2018/",
+"url": "/articles/an-ever-more-connected-home-on-ces-2018/",
+"link": "https://www.lemoniteur.fr/article/une-maison-toujours-plus-connectee-sur-le-ces-2018-35236568",
+"title": "An ever more connected home on CES 2018",
+"date_published": "2018-01-12T00:00:00Z",
+"date": "2018-01-12T00:00:00Z",
+"content_html": "\u003cp\u003eFrench companies like Legrand or Netatmo had introduce of their news technologic products destinate to house. Legrand would launch a new platform can be connected all objects in house on only one support. Netatmo won a price last year et this year they present a news Home Bot which can understand needs of people in the house\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/connected-home-the-products-that-have-marked-ces/",
+"url": "/articles/connected-home-the-products-that-have-marked-ces/",
+"link": "https://www.futura-sciences.com/maison/actualites/domotique-maison-connectee-produits-ont-marque-ces-69823/",
+"title": "Connected home: the products that have marked CES",
+"date_published": "2018-01-12T00:00:00Z",
+"date": "2018-01-12T00:00:00Z",
+"content_html": "\u003cp\u003eWith lighting, the connected security market is the fastest growing market. Locks, cameras, intercoms remotely controllable from a smartphone and even from the voice. This part of the article summarizes the new features on safety at CES.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTUyNjc1Mzg1NiwxODgzNzMzODUyXX0=\n--\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/ces-2018-netatmo-smart-home-bot-an-automation-and-domestic-ai/",
+"url": "/articles/ces-2018-netatmo-smart-home-bot-an-automation-and-domestic-ai/",
+"link": "https://www.presse-citron.net/netatmo-bot-ia-domotique/",
+"title": "CES 2018: Netatmo Smart Home Bot, an automation and domestic AI",
+"date_published": "2018-01-11T00:00:00Z",
+"date": "2018-01-11T00:00:00Z",
+"content_html": "\u003cp\u003eThe French leader in home automation Netatmo presents at CES its first Artificial Intelligence to control your home. The Netatmo Smart Home Bot interacts with you and controls your home, even remotely. The ability to understand the natural language of artificial intelligence allows a much more intuitive and user-friendly interaction than via a dedicated application, which the user must accommodate before using it.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTU1OTAyMDMwMl19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/how-the-french-tech-want-to-be-democratize-connected-house_/",
+"url": "/articles/how-the-french-tech-want-to-be-democratize-connected-house_/",
+"link": "http://www.rtl.fr/actu/futur/ces-2018-la-french-tech-veut-democratiser-la-maison-connectee-7791742368",
+"title": "CES 2018: How the French Tech want to be democratize connected house?",
+"date_published": "2018-01-10T00:00:00Z",
+"date": "2018-01-10T00:00:00Z",
+"content_html": "\u003cp\u003ePresentation of newsfrench connected objects which can augmented our life in house.\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/retractable-tv-lg/",
+"url": "/articles/retractable-tv-lg/",
+"link": "https://www.objetconnecte.net/lg-ecran-tv-oled-senroule-se-range-tiroir/",
+"title": "The retractable TV by LG",
+"date_published": "2018-01-09T00:00:00Z",
+"date": "2018-01-09T00:00:00Z",
+"content_html": "\u003cp\u003eLG unveils a prototype 65-inch screen that folds and rolls up to fit in a piece of furniture. This screen, surprising, will be released in 2020.\u003c/p\u003e\n\n\u003cp\u003eA standard size screen that wraps and folds in a drawer, you never thought about it, but LG did it. This is the new gadget of the South Korean company that has just been presented at CES 2018 in Las Vegas. A 65-inch UHD UHD TV that is so flexible that it can roll on itself to be carried everywhere. A curiosity that has aroused the curiosity of all visitors to the show. Beyond the technical prowess, one can wonder the real usefulness of such a product.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTQwNDk1NTM0XX0=\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/ces-2018-somfy-unveils-an-outdoor-camera-for-the-connected-home/",
+"url": "/articles/ces-2018-somfy-unveils-an-outdoor-camera-for-the-connected-home/",
+"link": "http://www.lemondenumerique.com/article-32428-ces-2018-somfy-devoile-une-camera-d-exterieur-pour-la-maison-connectee.html",
+"title": "CES 2018: Somfy unveils an outdoor camera for the connected home",
+"date_published": "2018-01-08T00:00:00Z",
+"date": "2018-01-08T00:00:00Z",
+"content_html": "\u003cp\u003eThe brand Somfy took advantage of the CES show in Las Vegas to announce the release this summer of a new camera that can be installed outdoors, able to detect intruders and to trigger an alarm and send a notification to warn you.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTA2Mjg3ODAyMl19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/future-home-floating/",
+"url": "/articles/future-home-floating/",
+"link": "http://thegoodlife.thegoodhub.com/2018/02/08/lhabitat-du-futur-se-veut-ecologique-et-flottant/",
+"title": "The future’s home is connected, ecological and floating",
+"date_published": "2018-01-08T00:00:00Z",
+"date": "2018-01-08T00:00:00Z",
+"content_html": "\u003cp\u003eThis article is less realistic than the other ones because it’s still  in draft form but it explains an interesting vision of the future’s home. Because 70% of the Earth is covered with water, the floating home is a very feasible solution and even more with the rising of the oceans.\nThis article shows the example of the architect Luca Curci. He has imagined a Vertical City on the water with apartments, offices, shops, services for 25,000 inhabitants…\nThe project is to create an eco-responsible floating and connected home.\u003c/p\u003e\n\n\u003cp\u003eThe 180-storey tower would have a modular structure that would bring natural ventilation and light into the living units. Aiming to provide an alternative design for a population interested in healthy lifestyles, the architects envisioned the city-building with public gardens along its entire height. Based on a modular 3d network, the structure is enveloped with a membrane of photovoltaic glass, which provides electricity to the whole building and makes it energy-independent.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMjAzNDk0MjgzN119\n--\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/upcycle-recycle-formula/",
+"url": "/articles/upcycle-recycle-formula/",
+"link": "http://www.dnaindia.com/just-before-monday/report-looking-forward-2018-in-architecture-we-need-to-look-at-the-upcycle-recycle-formula-2571462",
+"title": "The upcycle-recycle formula by Ashiesh Shah",
+"date_published": "2017-12-31T00:00:00Z",
+"date": "2017-12-31T00:00:00Z",
+"content_html": "\u003cp\u003eIn this article, the author talks about his opinion about design and architecture for 2018. According to him, “we need to look at the upcycle-recycle formula”.\u003c/p\u003e\n\n\u003cp\u003eHe explains that the use of technology in homes goes far beyond the idea of automation. “Up-cycle and recycle” is the new mantra and designers are coming up with innovative new technologies to achieve this. Sustainability technologies and concerns of ecology are becoming more important in both architecture and design.\u003c/p\u003e\n\n\u003cp\u003eSustainable practices refers to architectural strategies like the use of solar panels, rain water harvesting, the use of recycled building materials. Those technologies reduce unnecessary consumption of energy and resources.\u003c/p\u003e\n\n\u003cp\u003eHe also talks about the fact that today, the consumers are extremely well-informed about the concept of “green homes”. So in 2018, it’s not an option for the smart homes’ engineers : technology and ecology have to live together.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbNDc0NDg4NzkzXX0=\n--\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/amazon-buys-start-up-blink/",
+"url": "/articles/amazon-buys-start-up-blink/",
+"link": "https://www.lesnumeriques.com/camera-surveillance/blink-xt-p41867/amazon-rachete-start-up-blink-n69747.html",
+"title": "Amazon buys start-up Blink",
+"date_published": "2017-12-28T00:00:00Z",
+"date": "2017-12-28T00:00:00Z",
+"content_html": "\u003cp\u003eBlink is a start-up specializing in connected security. This week, Amazon has confirmed the acquisition of this young company that offers affordable solutions at lower cost.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTE5OTE1NTcxMzddfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/how-to-keep-a-connected-home-safe/",
+"url": "/articles/how-to-keep-a-connected-home-safe/",
+"link": "http://www.economiematin.fr/news-la-securite-dans-une-maison-connectee",
+"title": "How to keep a connected home safe",
+"date_published": "2017-12-21T00:00:00Z",
+"date": "2017-12-21T00:00:00Z",
+"content_html": "\u003cp\u003eConnected homes have a problem: they are not yet very secure. This lack of security does not prevent people from adding more and more connected objects to their homes.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTE3OTIxMDkwNTddfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/visit-of-connected-house-by-boulanger/",
+"url": "/articles/visit-of-connected-house-by-boulanger/",
+"link": "https://www.antoineguilbert.fr/visite-de-maison-connectee-boulanger/",
+"title": "Visit of Connected House by Boulanger",
+"date_published": "2017-12-21T00:00:00Z",
+"date": "2017-12-21T00:00:00Z",
+"content_html": "\u003cp\u003eVisit of a single place in France in House which regroups a lot of connected items in 70 square meters.\u003c/p\u003e\n\n\u003cp\u003eSimple goal : See how people can be live in this kind of House and try to imagine real use of these objets\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/smart-building-and-connected-home/",
+"url": "/articles/smart-building-and-connected-home/",
+"link": "http://www.batiweb.com/actualites/vie-des-societes/batiment-intelligent-et-maison-connectee-15-12-2017-31732.html",
+"title": "Smart building and connected home",
+"date_published": "2017-12-15T00:00:00Z",
+"date": "2017-12-15T00:00:00Z",
+"content_html": "\u003cp\u003eNew definition of smart building and connected home and compare both\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/smartplug-connected-plug/",
+"url": "/articles/smartplug-connected-plug/",
+"link": "https://www.objetconnecte.net/smart-plug-1212/",
+"title": "Smartplug, the connected plug",
+"date_published": "2017-12-12T00:00:00Z",
+"date": "2017-12-12T00:00:00Z",
+"content_html": "\u003cp\u003eA family business based in Perpignan, France has found the solution to reduce unnecessary energy costs generated by the standby of your electronic device and when you forget to turn off the lights in yout home. Full Home Energy has designed FHE Smart Plug, a smart plug that helps you effectively manage the power consumption of your smart home.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTEyOTA2Mzk5ODJdfQ==\n--\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/secure-your-house-at-a-low-price-with-fynoti/",
+"url": "/articles/secure-your-house-at-a-low-price-with-fynoti/",
+"link": "https://www.winkco.news/maison/securite/fynoti-securite-maison-petit-prix/",
+"title": "Secure your house at a low price with Fynoti",
+"date_published": "2017-12-11T00:00:00Z",
+"date": "2017-12-11T00:00:00Z",
+"content_html": "\u003cp\u003eSecuring your home is not within the reach of all budgets. A received wisdom according to Fynoti who will propose very soon a connected object dedicated to home security that is both simple and effective but especially accessible for small budgets.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTM5MzY1Nl19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/the-connected-house-what-is-it-_/",
+"url": "/articles/the-connected-house-what-is-it-_/",
+"link": "http://www.lavoixdunord.fr/288506/article/2017-12-29/leroy-merlin-veut-connecter-tous-les-objets-de-la-maison",
+"title": "The Connected House, what is it ?",
+"date_published": "2017-11-28T00:00:00Z",
+"date": "2017-11-28T00:00:00Z",
+"content_html": "\u003cp\u003eLeroy Merlin launched an mobile application destinate to connect all connected items together in same House. This is a kind of universal telecommand which name is ENKI.\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/honey-well-a-camera-a-security-system-and-a-voice-assistant/",
+"url": "/articles/honey-well-a-camera-a-security-system-and-a-voice-assistant/",
+"link": "https://blog.domadoo.fr/69770-honeywell-presente-systeme-de-securite-compatible-alexa-z-wave/",
+"title": "Honey Well, a camera, a security system and a voice assistant",
+"date_published": "2017-11-27T00:00:00Z",
+"date": "2017-11-27T00:00:00Z",
+"content_html": "\u003cp\u003eHoneywell is already specialized in home security and automation solutions. To better understand the needs of the market, Honeywell conducted a study in September 2016 that resulted in the development of a new product that is both a camera, a security system and a voice assistant.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbNDI5OTczMzc2XX0=\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/millo-smart-smoothiemaker/",
+"url": "/articles/millo-smart-smoothiemaker/",
+"link": "https://www.kickstarter.com/projects/1474988352/millo-the-worlds-smartest-smoothie-maker?lang=fr",
+"title": "Millo, the world’s smartest smoothie maker",
+"date_published": "2017-11-24T00:00:00Z",
+"date": "2017-11-24T00:00:00Z",
+"content_html": "\u003cp\u003eToday, for many people eating healthy has become paramount. For that nothing is worth of good fruits and vegetables, cooked or in the form of juice. After a successful Kickstarter in 2017, Millo is born and follows this trend. Indeed, it is a smart mixer that can be managed via a smartphone application. That said, it is less for this reason that for its impressive discretion we recommend this object.\u003c/p\u003e\n\n\u003cp\u003eMillo builders promise 20% quieter activity than any conventional mixer. It consumes less energy and produces less heat than the competition.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTMzOTk5MjIxNF19\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/blink-connected-cameras-to-monitor-the-house/",
+"url": "/articles/blink-connected-cameras-to-monitor-the-house/",
+"link": "https://www.lemondenumerique.com/blink-veut-proteger-votre-maison-contre-les-intrusions/",
+"title": "Blink, connected cameras to monitor the house",
+"date_published": "2017-11-13T00:00:00Z",
+"date": "2017-11-13T00:00:00Z",
+"content_html": "\u003cp\u003eThe American company Immedia has just announced the commercial release of Blink, a range of connected cameras audio / video to monitor the house. They are cheaper and easier to use.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTExNzQ2MTQ3MV19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/edf-smartflowers/",
+"url": "/articles/edf-smartflowers/",
+"link": "https://www.ladepeche.fr/article/2017/11/09/2681363-transition-energetique-edf-sur-tous-les-fronts.html",
+"title": "EDF' smartflowers",
+"date_published": "2017-11-09T00:00:00Z",
+"date": "2017-11-09T00:00:00Z",
+"content_html": "\u003cp\u003eThe smartflowers by EDF are solar generators that produce consumable photovoltaic energy for the owners which means that you can create your own electricity. This innovation looks like a flower. Thanks to a solar tracker, it can follow the sun during all the day.\u003c/p\u003e\n\n\u003cp\u003eWith this installation, you have an app where you can see \u003csup\u003e24\u003c/sup\u003e\u0026frasl;\u003csub\u003e24\u003c/sub\u003e the electricity production curve. The owner can also see informations about his electricity’s consumption in his home. Thanks to those informations, he can adapt his uses and become an actor of his power consumption.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbNzMyMDgxMjA4XX0=\n--\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/netatmo-smart-home-bot/",
+"url": "/articles/netatmo-smart-home-bot/",
+"link": "https://www.presse-citron.net/netatmo-bot-ia-domotique/",
+"title": "CES 2018: Netatmo Smart Home Bot, an automation and domestic AI",
+"date_published": "2017-11-01T00:00:00Z",
+"date": "2017-11-01T00:00:00Z",
+"content_html": "\u003cp\u003eThe French leader in home automation Netatmo presents at CES its first Artificial Intelligence to control your home. The Netatmo Smart Home Bot interacts with you and controls your home, even remotely. The ability to understand the natural language of artificial intelligence allows a much more intuitive and user-friendly interaction than via a dedicated application, which the user must accommodate before using it.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTU3NDY1NjM5MF19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/react-house-smarthome/",
+"url": "/articles/react-house-smarthome/",
+"link": "https://www.treehugger.com/green-architecture/resilient-adaptive-climate-technology-react-house-university-maryland-solar-decathlon-2017.html",
+"title": "'reACT House', a smart design for ecological living",
+"date_published": "2017-10-24T00:00:00Z",
+"date": "2017-10-24T00:00:00Z",
+"content_html": "\u003cp\u003e“reACT” stands for “Resilient Adaptative Climate Technology”. It’s a project of self-sustaining home targeted at people with traditional culture backgrounds, imagined by an american couple based in Denver, Colorado. This house has been designed by University of Maryland students.\u003c/p\u003e\n\n\u003cp\u003eIt’s a house conceived as a modular “kit of parts” that can be adapted to a range of uses and homeowners. It joins ecology and technology. For example, it includes a composting system, an hydroponic garden.\u003c/p\u003e\n\n\u003cp\u003eThere\u0026rsquo;s a solar power system with photovoltaics and battery storage; water is managed via a rainwater harvesting system and greywater treatment system. The team included tech that would help the home attain \u0026ldquo;net-zero\u0026rdquo; water use at a residential level, by recycling water as much as possible. All the home\u0026rsquo;s systems can be adjusted and monitored via smart-home software.\u003c/p\u003e\n\n\u003cp\u003eThis home is reconciling traditional views of harmonious ecological co-existence with modern technology.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMjAxMjk5OTcwOCw5NzQzOTg3NF19\n--\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/connected-building_-delivery-of-an-apartment-building-a-first-in-france/",
+"url": "/articles/connected-building_-delivery-of-an-apartment-building-a-first-in-france/",
+"link": "http://www.zdnet.fr/actualites/batiment-connecte-livraison-d-un-immeuble-d-habitation-une-premiere-en-france-39859052.htm",
+"title": "Connected building: delivery of an apartment building, a first in France",
+"date_published": "2017-10-24T00:00:00Z",
+"date": "2017-10-24T00:00:00Z",
+"content_html": "\u003cp\u003eThe first residence of France, Issy Préférence, composed of communicating and connected housing was delivered in October 2017. The housing is controllable from a smartphone application or by voice.\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/google-home-mini/",
+"url": "/articles/google-home-mini/",
+"link": "https://store.google.com/fr/product/google_home_mini",
+"title": "Google Home mini",
+"date_published": "2017-10-10T00:00:00Z",
+"date": "2017-10-10T00:00:00Z",
+"content_html": "\u003cp\u003eThe Google Home Mini was real. Before its official announcement the connected speaker was one of the favorite topics of discussion observers. All spoke of a new speaker to less than 60 euros. The Google Home Mini is now official!\nGoogle Home Mini: what is it?\u003c/p\u003e\n\n\u003cp\u003eTo go to the simplest, it is about a connected speaker Google Home in reduced format. For those who do not know, Google Home is a connected speaker integrating Google Assistant, the artificial intelligence of the American giant. The speaker allows for example to launch music, movies, series, turn on lights, or do research on the web by voice. We have already tested the Google Home first name,so you know what you have to do if you want to know all the details about this product.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMzIzNjcyNjc0XX0=\n--\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/city-of-future-an-reasoned-utopia/",
+"url": "/articles/city-of-future-an-reasoned-utopia/",
+"link": "https://www.lenouveleconomiste.fr/lesdossiers/ville-du-futur-lutopie-raisonnee-61234/",
+"title": "City of future, an reasoned Utopia",
+"date_published": "2017-10-03T00:00:00Z",
+"date": "2017-10-03T00:00:00Z",
+"content_html": "\u003cp\u003eCity of future is not especially an city which cars fly that we can imagine. They have some needs to be solved and the Connected Houses can be answer at these problem in particular for energy saving.\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/e%CC%81cocapsule-_-the-ecological-caravan-of-future/",
+"url": "/articles/e%CC%81cocapsule-_-the-ecological-caravan-of-future/",
+"link": "http://edito.seloger.com/lifestyle/eco-habitat/l-ecocapsule-la-caravane-ecologique-du-futur-article-16372.html",
+"title": "Écocapsule : the ecological caravan of future",
+"date_published": "2017-10-03T00:00:00Z",
+"date": "2017-10-03T00:00:00Z",
+"content_html": "\u003cp\u003eAn architectural firm has created an egg-shaped mobile home. Called Écocapsule, its particularity lies in its ability to meet the energy needs of its occupants for a year.\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/britons-fear-connected-home-pirates/",
+"url": "/articles/britons-fear-connected-home-pirates/",
+"link": "http://www.netimperative.com/2017/10/brits-fearful-smart-home-hackers/",
+"title": "Britons fear connected home pirates",
+"date_published": "2017-10-02T00:00:00Z",
+"date": "2017-10-02T00:00:00Z",
+"content_html": "\u003cp\u003eWith the announcement of new connected objects from Amazon and Google a research revealed that the British are far from adhering to the technologies of connected homes\n - 76%  fear the potential risks of these technos\n - 51%  fear that their house will be hacked\n - 58%  would buy technologies that could save them money on their home insurance\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTQ2NDU0MzI1Ml19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/samsung-and-adt-team-up-to-launch-new-smart-home-security-kit/",
+"url": "/articles/samsung-and-adt-team-up-to-launch-new-smart-home-security-kit/",
+"link": "http://mashable.com/2017/10/02/samsung-adt-smartthings-partnership/?utm_campaign=Mash-Prod-RSS-Feedburner-Tech-Partial\u0026utm_cid=Mash-Prod-RSS-Feedburner-Tech-Partial\u0026utm_source=dlvr.it\u0026utm_medium=twitter#G11Ph3jyaqqg",
+"title": "Samsung and ADT Team Up to Launch New Smart Home Security Kit",
+"date_published": "2017-10-02T00:00:00Z",
+"date": "2017-10-02T00:00:00Z",
+"content_html": "\u003cp\u003eSamsung has announced a new partnership with ADT to launch a new security kit. There is a hub, 2 detectors for door and window, motion detectors and a connection to other connected objects.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTk2MTE1ODcyOV19\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/beliv-connected-home/",
+"url": "/articles/beliv-connected-home/",
+"link": "https://particuliers.engie.fr/economies-energie/conseils/solutions-innovantes/beliv-maison-connectee.html",
+"title": "'Beliv', the connected and smart home by Engie",
+"date_published": "2017-09-25T00:00:00Z",
+"date": "2017-09-25T00:00:00Z",
+"content_html": "\u003cp\u003eBeliv is a concept imagined by Engie and developed by the CRIGEN laboratory. This subsidiary is specialised in the creation of innovatives solutions for a smart steering of the energy.\u003c/p\u003e\n\n\u003cp\u003eThis smarthome allows the consumption reduction of gaz and electricity. For example, it has motion detectors which turns on the light only when there are people in the room.\u003c/p\u003e\n\n\u003cp\u003eYou can also stock and resell your own renewable energy by putting solar panels on your roof.\u003c/p\u003e\n\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbOTcyNDU3MjA3XX0=\n--\u003e\n",
+"categories": ["ecology"]
+}, 
+{
+"id": "/articles/amabrush-connected-toothbrush/",
+"url": "/articles/amabrush-connected-toothbrush/",
+"link": "https://www.amabrush.com/",
+"title": "Amabrush, save 61 days of your life !",
+"date_published": "2017-09-24T00:00:00Z",
+"date": "2017-09-24T00:00:00Z",
+"content_html": "\u003cp\u003eAmabrush sounds the end of classic toothbrushes. She promises to clean the entire mouth in ten seconds against three minutes with a conventional brush. The project is a hit on Kickstater with more than 3,198,000 euros collected.\u003c/p\u003e\n\n\u003cp\u003eMuch more powerful than a classic toothbrush, the Amabrush has raised more than 3,198,000 euros on Kickstarter. While the sum requested was only 50,000 euros, the revolutionary toothbrush has already gathered more than 26,000 contributors, including 10 who donated 1000 dollars to support the project. The starter pack costs 130 euros, compared to 90 euros on average for a classic electric toothbrush.\nThe time savings offered by this new toothbrush is considerable. While oral health professionals recommend brushing, teeth in three minutes, the Amabrush offer to achieve an equivalent result in just ten seconds. To achieve this feat, vibrations are generated by the toothbrush. The classic brushing gesture from top to bottom that all dentists advocate does not have to be with this device. No more boredom of the traditional three-minute ritual for clean teeth, the future of the toothbrush is here.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMzQxOTk2NTM5LC02ODAzMzAzNzldfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/what-is-the-house-of-future-_/",
+"url": "/articles/what-is-the-house-of-future-_/",
+"link": "https://twitter.com/Inafr_officiel/status/911620429764214784/video/1",
+"title": "What is the house of future ?",
+"date_published": "2017-09-24T00:00:00Z",
+"date": "2017-09-24T00:00:00Z",
+"content_html": "\u003cp\u003eThis is an archive of how people saw house of future in 1971. It\u0026rsquo;s incredible to see how they imagine the news houses, especially for architecture. We see in this video, an house wich follow the sun, a kitchen wich cook for us \u0026hellip;\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/the-connected-house-can-take-off-under-certain-conditions_-alexandre-chaverot-boss-of-smarthome-internationa/",
+"url": "/articles/the-connected-house-can-take-off-under-certain-conditions_-alexandre-chaverot-boss-of-smarthome-internationa/",
+"link": "https://www.lsa-conso.fr/la-maison-connectee-peut-decoller-sous-certaines-conditions-alexandre-chaverot-patron-de-smarthome-international,266337",
+"title": "'The connected house can take off under certain conditions' Alexandre Chaverot, boss of Smarthome International",
+"date_published": "2017-09-20T00:00:00Z",
+"date": "2017-09-20T00:00:00Z",
+"content_html": "\u003cp\u003eSME Smarthome International, which brings together three companies specializing in smart home, will launch products under the Philips brand in France and other European countries. But Alexandre Chaverot said \u0026ldquo;The connected house has been around for 10 years and is lagging behind in the market because there are many obstacles\u0026rdquo;\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/keezel-protects-the-connected-home/",
+"url": "/articles/keezel-protects-the-connected-home/",
+"link": "https://www.objetconnecte.com/startup-tour-keezel-protege-maison-160916/",
+"title": "Keezel protects the connected home!",
+"date_published": "2017-09-16T00:00:00Z",
+"date": "2017-09-16T00:00:00Z",
+"content_html": "\u003cp\u003eData protection is not easy in a connected ecosystem. Keezel is a Dutch startup that created an object to encrypt WiFi communications. The goal? Ensure users peace of mind against Malware and other hackers.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbMTQ0NjkzMjQyXX0=\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/yeelight-connected-romanticism/",
+"url": "/articles/yeelight-connected-romanticism/",
+"link": "https://www.objetconnecte.net/yeelight-bougie-connectee/",
+"title": "Yeelight, the connected romanticism",
+"date_published": "2017-09-12T00:00:00Z",
+"date": "2017-09-12T00:00:00Z",
+"content_html": "\u003cp\u003eWhat if you could light tens, hundreds or even thousands of candles in one moment? Forget the burns and hards with the lighter, thanks to the connected Yeelight candles. Designed by the company of the same name, these are in fact small portable lamps with candle design, connected together through the bluetooth network and the dedicated application. To turn it on, just turn the top, and the others are automatically turned on too.\u003c/p\u003e\n\n\u003cp\u003eNote that the other projects of the company already work with Google Assistant Alexa and IFTTT, and that candles should also benefit in the short term. They will be able to integrate in your connected home and synchronize with the music or the opening of the doors for example. The autonomy of each model is 8 hours. To recharge a connected Yeelight candle, simply plug it into USB. Easy to do if you have some, a little more problematic if you\u0026rsquo;ve seen things big.Launched on August 1, Yeelight connected candles were funded in less than 48 hours on the Kickstarter platform. In the end, more than $ 115,000 was raised while the initial goal was $ 50,000. A performance made possible thanks to the support of over 270 contributors. If Yeelight candles were offered at $ 35 each, they should be sold at a price of around $ 50. To sum up, a small investment for those who want to fill the house.\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTcxNjYwODMwOV19\n--\u003e\u003c/p\u003e\n",
+"categories": ["comfort"]
+}, 
+{
+"id": "/articles/_lego_-houses-ecological-and-cheap-build-in-less-4-month/",
+"url": "/articles/_lego_-houses-ecological-and-cheap-build-in-less-4-month/",
+"link": "http://immobilier.lefigaro.fr/article/des-maisons-lego-ecolo-et-pas-cheres-construites-en-moins-de-4-mois_588e105e-99f5-11e7-8d34-f6cfc6afc02f/",
+"title": "Lego Houses, ecological and cheap, build in less 4 month",
+"date_published": "2017-09-10T00:00:00Z",
+"date": "2017-09-10T00:00:00Z",
+"content_html": "\u003cp\u003eA new french system to build house in a record time.\nAnd if the connected home through its new construction systems?\u003c/p\u003e\n",
+"categories": ["house"]
+}, 
+{
+"id": "/articles/this-company-hacked-connected-houses-devices-to-show-the-vulnerability/",
+"url": "/articles/this-company-hacked-connected-houses-devices-to-show-the-vulnerability/",
+"link": "https://www.forbes.com/sites/jenniferhicks/2017/09/19/this-company-staged-a-hack-with-multiple-devices-to-show-your-homes-vulnerablity/#2006e8aa5322",
+"title": "This company hacked connected houses devices to show the vulnerability",
+"date_published": "2017-09-10T00:00:00Z",
+"date": "2017-09-10T00:00:00Z",
+"content_html": "\u003cp\u003eBy 2020, there will be more than 73 million connected homes in North America. This represents more than 50% of homes. \u003ca href=\"https://www.bullguard.com/\"\u003eBullGuard\u003c/a\u003e used an IP camera, a smart alarm, an intelligent security system and an Amazon echo to break into a house and retrieve all the data\n\u003c!--stackedit_data:\neyJoaXN0b3J5IjpbLTE0NTgxMzEyNThdfQ==\n--\u003e\u003c/p\u003e\n",
+"categories": ["security"]
+}, 
+{
+"id": "/articles/the-connected-house-a-dream-come-true/",
+"url": "/articles/the-connected-house-a-dream-come-true/",
+"link": "http://www.lexpress.fr/tendances/produit-high-tech/la-maison-connectee-un-reve-devenu-realite_1901195.html",
+"title": "The Connected House, a dream come true",
+"date_published": "0001-01-01T00:00:00Z",
+"date": "0001-01-01T00:00:00Z",
+"content_html": "\u003cp\u003eBards of electronic devices, homes \u0026ldquo;smart\u0026rdquo; promise more comfort and safety. Assets that remain however \u003cstrong\u003ehigh-end\u003c/strong\u003e\u003c/p\u003e\n",
+"categories": ["house"]
+}
+],
+"feed_url" : "/articles/index.json"
+}
