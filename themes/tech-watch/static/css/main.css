@@ -580,10 +580,11 @@ figure.highlight {
 /* ==admin dev classes */
 /* For debbuging purpose */
 /* ---------------------------------- */
-.dev, .hidden-dev {
+.dev,
+.hidden-dev {
   display: none; }
-  .devmode .dev,
-  .devmode .hidden-dev {
+  .devmode .dev, .devmode
+  .hidden-dev {
     display: block; }
 
 /* ==========================================================================
@@ -668,7 +669,8 @@ body {
 ========================================================================== */
 .header-main {
   position: relative;
-  z-index: 10; }
+  z-index: 10;
+  display: inline-block; }
 
 .main-navbar {
   padding: 50px 50px 0; }
@@ -1046,13 +1048,16 @@ body {
 ========================================================================== */
 .bubble-page {
   position: absolute;
-  z-index: 1; }
+  z-index: 1;
+  padding-top: 60px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
   .bubble-page:before {
     content: "";
     width: 52px;
     height: 52px;
     position: absolute;
-    top: -190%;
+    top: 0px;
     left: 50%;
     -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
@@ -1061,10 +1066,15 @@ body {
     background-image: linear-gradient(31deg, #f82c67, #faff83);
     -webkit-box-shadow: 0 2px 14px 0 #080433;
             box-shadow: 0 2px 14px 0 #080433;
-    border-radius: 100%; }
+    border-radius: 100%;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+  .bubble-page:hover:before {
+    -webkit-box-shadow: 0px 0px 60px rgba(248, 44, 103, 0.7);
+            box-shadow: 0px 0px 60px rgba(248, 44, 103, 0.7); }
 
 .bubble-page--top {
-  top: 154px;
+  top: 83px;
   right: 139px; }
 
 .bubble-page--bottom {
@@ -1074,6 +1084,9 @@ body {
     background-image: -webkit-gradient(linear, left top, left bottom, from(#1aceff), to(#24b583));
     background-image: -webkit-linear-gradient(top, #1aceff, #24b583);
     background-image: linear-gradient(to bottom, #1aceff, #24b583); }
+  .bubble-page--bottom:hover:before {
+    -webkit-box-shadow: 0px 0px 25px rgba(26, 206, 255, 0.7);
+            box-shadow: 0px 0px 25px rgba(26, 206, 255, 0.7); }
 
 /* $TIMELINE
 ========================================================================== */
@@ -1134,7 +1147,7 @@ body {
     -webkit-transition: all 0.3s ease-in-out 0.05s;
     transition: all 0.3s ease-in-out 0.05s; }
   .tl-panel #article-content {
-    max-height: 470px;
+    max-height: 370px;
     overflow: scroll;
     margin-bottom: 20px; }
   .tl-panel .link {
