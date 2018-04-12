@@ -1,0 +1,55 @@
+/* $ARTICLES
+========================================================================== */
+
+$gutter: 30px;
+
+.content--listing--outlinks {
+  padding: 50px;
+  .listing {
+    margin: 0 #{-$gutter};
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.article-outlink {
+  @include rem('font-size', 1.8rem);
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 33%;
+  flex: 0 0 33%;
+  padding: 0 $gutter;
+  display: block;
+  white-space: nowrap;
+}
+
+$gutterCredits: 15px;
+
+.credits-wrapper {
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.credits {
+  display: flex;
+  margin: 0 #{-$gutterCredits};
+}
+
+.credits__item {
+  @include rem('font-size', 1.4rem);
+  color: $pale-lilac;
+  transition: all 0.3s;
+  padding: 0 $gutterCredits;
+  a {
+    text-decoration: underline;
+    opacity: 0.8;
+    transition: all 0.3s;
+  }
+  &:hover, & a {
+    opacity: 1;
+  }
+}

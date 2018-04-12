@@ -1,8 +1,8 @@
 DefaultContentLanguage = "en"
-baseURL = "/"
+#baseURL = "/"
 # Dist :
-#baseURL = "https://bastou.github.io/connected-house/" # https://bastou.github.io/connected-house/"
-#canonifyURLs = true
+baseURL = "https://bastou.github.io/connected-house/" # https://bastou.github.io/connected-house/"
+canonifyURLs = true
 title = "Connected House"
 theme = "tech-watch"
 description = "What happened in the the connected house sector since september 2017"
