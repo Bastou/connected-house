@@ -14,6 +14,8 @@ export default function( p ) {
     let font;
 
     // TIMELINE CONFIGS /////////
+    const siteUrl = '//' + window.location.host + '/connected-house/';
+    const articlesUrl = siteUrl + '/articles/index.json';
     const padding = [0, 80];
     let W = p.windowWidth;
     let H = p.windowHeight;
@@ -74,12 +76,10 @@ export default function( p ) {
     p.preload = function () {
 
         // Load font
-        font = p.loadFont('//' + window.location.host + '/font/karla.ttf');
+        font = p.loadFont(siteUrl + '/font/karla.ttf');
 
         // Get all articles from generated hugo json
-        const url = '//' + window.location.host + '/articles/index.json';
-        console.log(url);
-        p.loadJSON(url, function (data) {
+        p.loadJSON(articlesUrl , function (data) {
 
             // Map json data with class articles
             data.articles.forEach( (article, key) =>
