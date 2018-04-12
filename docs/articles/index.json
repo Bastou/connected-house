@@ -2,12 +2,12 @@
 "version" : "https://jsonfeed.org/version/1",
 "title" : "Articles on Connected House",
 "description": "Recent content in Articles on Connected House",
-"home_page_url" : "/",
+"home_page_url" : "https://bastou.github.io/connected-house/",
 "articles" : [
 
 {
-"id": "/articles/ai-carrefour/",
-"url": "/articles/ai-carrefour/",
+"id": "https://bastou.github.io/connected-house/articles/ai-carrefour/",
+"url": "https://bastou.github.io/connected-house/articles/ai-carrefour/",
 "link": "https://www.objetconnecte.net/assistant-connecte-carrefour-google/",
 "title": "The AI by Carrefour",
 "date_published": "2018-03-26T00:00:00Z",
@@ -16,8 +16,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/study-warns-smart-home-devices-can-be-hacked-with-a-simple-google-search/",
-"url": "/articles/study-warns-smart-home-devices-can-be-hacked-with-a-simple-google-search/",
+"id": "https://bastou.github.io/connected-house/articles/study-warns-smart-home-devices-can-be-hacked-with-a-simple-google-search/",
+"url": "https://bastou.github.io/connected-house/articles/study-warns-smart-home-devices-can-be-hacked-with-a-simple-google-search/",
 "link": "https://newatlas.com/iot-smart-home-hacked-passwords-bgu/53816/",
 "title": "Study warns smart home devices can be hacked with a simple Google search",
 "date_published": "2018-03-15T00:00:00Z",
@@ -26,8 +26,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/smart-device-security-guidelines-need-more-teeth/",
-"url": "/articles/smart-device-security-guidelines-need-more-teeth/",
+"id": "https://bastou.github.io/connected-house/articles/smart-device-security-guidelines-need-more-teeth/",
+"url": "https://bastou.github.io/connected-house/articles/smart-device-security-guidelines-need-more-teeth/",
 "link": "http://www.bbc.com/news/technology-43305346",
 "title": "Smart device security guidelines 'need more teeth'",
 "date_published": "2018-03-07T00:00:00Z",
@@ -36,8 +36,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/babcok-ranch-connected-city/",
-"url": "/articles/babcok-ranch-connected-city/",
+"id": "https://bastou.github.io/connected-house/articles/babcok-ranch-connected-city/",
+"url": "https://bastou.github.io/connected-house/articles/babcok-ranch-connected-city/",
 "link": "http://www.ladn.eu/tech-a-suivre/habitat-et-villes-connectes/bus-sans-conducteur-panneaux-solaires-voici-la-ville-vraiment-intelligente/",
 "title": "Babcok Ranch, the connected city of the future",
 "date_published": "2018-03-01T00:00:00Z",
@@ -46,8 +46,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/smart-home-what-will-the-houses-of-tomorrow-look-like_/",
-"url": "/articles/smart-home-what-will-the-houses-of-tomorrow-look-like_/",
+"id": "https://bastou.github.io/connected-house/articles/smart-home-what-will-the-houses-of-tomorrow-look-like_/",
+"url": "https://bastou.github.io/connected-house/articles/smart-home-what-will-the-houses-of-tomorrow-look-like_/",
 "link": "https://mbamci.com/smart-home-a-quoi-ressemblera-la-maison-de-demain/",
 "title": "Smart Home, What will the houses of tomorrow look like?",
 "date_published": "2018-03-01T00:00:00Z",
@@ -56,8 +56,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/kaspersky-lab-discovers-smart-home-hub-vulnerable-to-remote-attacks/",
-"url": "/articles/kaspersky-lab-discovers-smart-home-hub-vulnerable-to-remote-attacks/",
+"id": "https://bastou.github.io/connected-house/articles/kaspersky-lab-discovers-smart-home-hub-vulnerable-to-remote-attacks/",
+"url": "https://bastou.github.io/connected-house/articles/kaspersky-lab-discovers-smart-home-hub-vulnerable-to-remote-attacks/",
 "link": "https://www.informationsecuritybuzz.com/news/smart-hack-kaspersky-lab-discovers-smart-home-hub-vulnerable-remote-attacks/",
 "title": "Kaspersky Lab Discovers Smart Home Hub Vulnerable To Remote Attacks",
 "date_published": "2018-02-28T00:00:00Z",
@@ -66,8 +66,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/vision-assistant-piccolo/",
-"url": "/articles/vision-assistant-piccolo/",
+"id": "https://bastou.github.io/connected-house/articles/vision-assistant-piccolo/",
+"url": "https://bastou.github.io/connected-house/articles/vision-assistant-piccolo/",
 "link": "https://techcrunch.com/2018/02/28/piccolo-is-building-a-gesture-based-smart-home-vision-assistant/",
 "title": "The smarthome vision assistant by Piccolo",
 "date_published": "2018-02-28T00:00:00Z",
@@ -76,8 +76,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices/",
-"url": "/articles/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices/",
+"id": "https://bastou.github.io/connected-house/articles/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices/",
+"url": "https://bastou.github.io/connected-house/articles/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices/",
 "link": "http://electronics360.globalspec.com/article/11234/70-percent-of-americans-fear-getting-hacked-through-smart-home-devices",
 "title": "70 Percent of Americans Fear Getting Hacked Through Smart Home Devices",
 "date_published": "2018-02-26T00:00:00Z",
@@ -86,8 +86,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/connected-house-that-favors-the-french_/",
-"url": "/articles/connected-house-that-favors-the-french_/",
+"id": "https://bastou.github.io/connected-house/articles/connected-house-that-favors-the-french_/",
+"url": "https://bastou.github.io/connected-house/articles/connected-house-that-favors-the-french_/",
 "link": "http://www.batiweb.com/actualites/vie-des-societes/maison-connectee-que-privilegient-les-francais-26-02-2018-32088.html",
 "title": "Connected house that favors the French?",
 "date_published": "2018-02-26T00:00:00Z",
@@ -96,8 +96,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/3-800-cyber-attacks-on-the-smart-home-daily-a-forum-about-cyber-security-solutions/",
-"url": "/articles/3-800-cyber-attacks-on-the-smart-home-daily-a-forum-about-cyber-security-solutions/",
+"id": "https://bastou.github.io/connected-house/articles/3-800-cyber-attacks-on-the-smart-home-daily-a-forum-about-cyber-security-solutions/",
+"url": "https://bastou.github.io/connected-house/articles/3-800-cyber-attacks-on-the-smart-home-daily-a-forum-about-cyber-security-solutions/",
 "link": "http://securitymiddleeast.com/2018/02/23/3800-cyber-attacks-smart-home-daily-cyber-security-solutions-smart-buildings-intersec-forum/",
 "title": "3,800 cyber-attacks on the smart home daily: it and cyber-security solutions for smart buildings at the intersec forum",
 "date_published": "2018-02-23T00:00:00Z",
@@ -106,8 +106,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/bio-pool-tech/",
-"url": "/articles/bio-pool-tech/",
+"id": "https://bastou.github.io/connected-house/articles/bio-pool-tech/",
+"url": "https://bastou.github.io/connected-house/articles/bio-pool-tech/",
 "link": "https://www.objetconnecte.com/bio-pool-tech-startup/",
 "title": "Bio Pool Tech, the connected and ecological swimming pool",
 "date_published": "2018-02-23T00:00:00Z",
@@ -116,8 +116,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/homepod-apple/",
-"url": "/articles/homepod-apple/",
+"id": "https://bastou.github.io/connected-house/articles/homepod-apple/",
+"url": "https://bastou.github.io/connected-house/articles/homepod-apple/",
 "link": "https://www.apple.com/fr/homepod/",
 "title": "Welcome HomePod !",
 "date_published": "2018-02-14T00:00:00Z",
@@ -126,8 +126,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/dreamlight-sleep/",
-"url": "/articles/dreamlight-sleep/",
+"id": "https://bastou.github.io/connected-house/articles/dreamlight-sleep/",
+"url": "https://bastou.github.io/connected-house/articles/dreamlight-sleep/",
 "link": "https://www.wareable.com/health-and-wellbeing/dreamlight-sleeping-mask-3932",
 "title": "Dreamlight improves your sleep",
 "date_published": "2018-02-09T00:00:00Z",
@@ -136,8 +136,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/a-lock-that-unlocks-with-the-phone-flash/",
-"url": "/articles/a-lock-that-unlocks-with-the-phone-flash/",
+"id": "https://bastou.github.io/connected-house/articles/a-lock-that-unlocks-with-the-phone-flash/",
+"url": "https://bastou.github.io/connected-house/articles/a-lock-that-unlocks-with-the-phone-flash/",
 "link": "https://www.lesnumeriques.com/objet-connecte/havr-bright-lock-p42913/serrure-havr-brightlock-flash-votre-porte-ouvre-n70857.html",
 "title": "A lock that unlocks with the phone flash",
 "date_published": "2018-01-26T00:00:00Z",
@@ -146,8 +146,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/an-ever-more-connected-home-on-ces-2018/",
-"url": "/articles/an-ever-more-connected-home-on-ces-2018/",
+"id": "https://bastou.github.io/connected-house/articles/an-ever-more-connected-home-on-ces-2018/",
+"url": "https://bastou.github.io/connected-house/articles/an-ever-more-connected-home-on-ces-2018/",
 "link": "https://www.lemoniteur.fr/article/une-maison-toujours-plus-connectee-sur-le-ces-2018-35236568",
 "title": "An ever more connected home on CES 2018",
 "date_published": "2018-01-12T00:00:00Z",
@@ -156,8 +156,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/connected-home-the-products-that-have-marked-ces/",
-"url": "/articles/connected-home-the-products-that-have-marked-ces/",
+"id": "https://bastou.github.io/connected-house/articles/connected-home-the-products-that-have-marked-ces/",
+"url": "https://bastou.github.io/connected-house/articles/connected-home-the-products-that-have-marked-ces/",
 "link": "https://www.futura-sciences.com/maison/actualites/domotique-maison-connectee-produits-ont-marque-ces-69823/",
 "title": "Connected home: the products that have marked CES",
 "date_published": "2018-01-12T00:00:00Z",
@@ -166,8 +166,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/ces-2018-netatmo-smart-home-bot-an-automation-and-domestic-ai/",
-"url": "/articles/ces-2018-netatmo-smart-home-bot-an-automation-and-domestic-ai/",
+"id": "https://bastou.github.io/connected-house/articles/ces-2018-netatmo-smart-home-bot-an-automation-and-domestic-ai/",
+"url": "https://bastou.github.io/connected-house/articles/ces-2018-netatmo-smart-home-bot-an-automation-and-domestic-ai/",
 "link": "https://www.presse-citron.net/netatmo-bot-ia-domotique/",
 "title": "CES 2018: Netatmo Smart Home Bot, an automation and domestic AI",
 "date_published": "2018-01-11T00:00:00Z",
@@ -176,8 +176,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/how-the-french-tech-want-to-be-democratize-connected-house_/",
-"url": "/articles/how-the-french-tech-want-to-be-democratize-connected-house_/",
+"id": "https://bastou.github.io/connected-house/articles/how-the-french-tech-want-to-be-democratize-connected-house_/",
+"url": "https://bastou.github.io/connected-house/articles/how-the-french-tech-want-to-be-democratize-connected-house_/",
 "link": "http://www.rtl.fr/actu/futur/ces-2018-la-french-tech-veut-democratiser-la-maison-connectee-7791742368",
 "title": "CES 2018: How the French Tech want to be democratize connected house?",
 "date_published": "2018-01-10T00:00:00Z",
@@ -186,8 +186,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/retractable-tv-lg/",
-"url": "/articles/retractable-tv-lg/",
+"id": "https://bastou.github.io/connected-house/articles/retractable-tv-lg/",
+"url": "https://bastou.github.io/connected-house/articles/retractable-tv-lg/",
 "link": "https://www.objetconnecte.net/lg-ecran-tv-oled-senroule-se-range-tiroir/",
 "title": "The retractable TV by LG",
 "date_published": "2018-01-09T00:00:00Z",
@@ -196,8 +196,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/ces-2018-somfy-unveils-an-outdoor-camera-for-the-connected-home/",
-"url": "/articles/ces-2018-somfy-unveils-an-outdoor-camera-for-the-connected-home/",
+"id": "https://bastou.github.io/connected-house/articles/ces-2018-somfy-unveils-an-outdoor-camera-for-the-connected-home/",
+"url": "https://bastou.github.io/connected-house/articles/ces-2018-somfy-unveils-an-outdoor-camera-for-the-connected-home/",
 "link": "http://www.lemondenumerique.com/article-32428-ces-2018-somfy-devoile-une-camera-d-exterieur-pour-la-maison-connectee.html",
 "title": "CES 2018: Somfy unveils an outdoor camera for the connected home",
 "date_published": "2018-01-08T00:00:00Z",
@@ -206,8 +206,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/future-home-floating/",
-"url": "/articles/future-home-floating/",
+"id": "https://bastou.github.io/connected-house/articles/future-home-floating/",
+"url": "https://bastou.github.io/connected-house/articles/future-home-floating/",
 "link": "http://thegoodlife.thegoodhub.com/2018/02/08/lhabitat-du-futur-se-veut-ecologique-et-flottant/",
 "title": "The future’s home is connected, ecological and floating",
 "date_published": "2018-01-08T00:00:00Z",
@@ -216,8 +216,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/upcycle-recycle-formula/",
-"url": "/articles/upcycle-recycle-formula/",
+"id": "https://bastou.github.io/connected-house/articles/upcycle-recycle-formula/",
+"url": "https://bastou.github.io/connected-house/articles/upcycle-recycle-formula/",
 "link": "http://www.dnaindia.com/just-before-monday/report-looking-forward-2018-in-architecture-we-need-to-look-at-the-upcycle-recycle-formula-2571462",
 "title": "The upcycle-recycle formula by Ashiesh Shah",
 "date_published": "2017-12-31T00:00:00Z",
@@ -226,8 +226,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/amazon-buys-start-up-blink/",
-"url": "/articles/amazon-buys-start-up-blink/",
+"id": "https://bastou.github.io/connected-house/articles/amazon-buys-start-up-blink/",
+"url": "https://bastou.github.io/connected-house/articles/amazon-buys-start-up-blink/",
 "link": "https://www.lesnumeriques.com/camera-surveillance/blink-xt-p41867/amazon-rachete-start-up-blink-n69747.html",
 "title": "Amazon buys start-up Blink",
 "date_published": "2017-12-28T00:00:00Z",
@@ -236,8 +236,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/how-to-keep-a-connected-home-safe/",
-"url": "/articles/how-to-keep-a-connected-home-safe/",
+"id": "https://bastou.github.io/connected-house/articles/how-to-keep-a-connected-home-safe/",
+"url": "https://bastou.github.io/connected-house/articles/how-to-keep-a-connected-home-safe/",
 "link": "http://www.economiematin.fr/news-la-securite-dans-une-maison-connectee",
 "title": "How to keep a connected home safe",
 "date_published": "2017-12-21T00:00:00Z",
@@ -246,8 +246,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/visit-of-connected-house-by-boulanger/",
-"url": "/articles/visit-of-connected-house-by-boulanger/",
+"id": "https://bastou.github.io/connected-house/articles/visit-of-connected-house-by-boulanger/",
+"url": "https://bastou.github.io/connected-house/articles/visit-of-connected-house-by-boulanger/",
 "link": "https://www.antoineguilbert.fr/visite-de-maison-connectee-boulanger/",
 "title": "Visit of Connected House by Boulanger",
 "date_published": "2017-12-21T00:00:00Z",
@@ -256,8 +256,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/smart-building-and-connected-home/",
-"url": "/articles/smart-building-and-connected-home/",
+"id": "https://bastou.github.io/connected-house/articles/smart-building-and-connected-home/",
+"url": "https://bastou.github.io/connected-house/articles/smart-building-and-connected-home/",
 "link": "http://www.batiweb.com/actualites/vie-des-societes/batiment-intelligent-et-maison-connectee-15-12-2017-31732.html",
 "title": "Smart building and connected home",
 "date_published": "2017-12-15T00:00:00Z",
@@ -266,8 +266,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/smartplug-connected-plug/",
-"url": "/articles/smartplug-connected-plug/",
+"id": "https://bastou.github.io/connected-house/articles/smartplug-connected-plug/",
+"url": "https://bastou.github.io/connected-house/articles/smartplug-connected-plug/",
 "link": "https://www.objetconnecte.net/smart-plug-1212/",
 "title": "Smartplug, the connected plug",
 "date_published": "2017-12-12T00:00:00Z",
@@ -276,8 +276,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/secure-your-house-at-a-low-price-with-fynoti/",
-"url": "/articles/secure-your-house-at-a-low-price-with-fynoti/",
+"id": "https://bastou.github.io/connected-house/articles/secure-your-house-at-a-low-price-with-fynoti/",
+"url": "https://bastou.github.io/connected-house/articles/secure-your-house-at-a-low-price-with-fynoti/",
 "link": "https://www.winkco.news/maison/securite/fynoti-securite-maison-petit-prix/",
 "title": "Secure your house at a low price with Fynoti",
 "date_published": "2017-12-11T00:00:00Z",
@@ -286,8 +286,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/the-connected-house-what-is-it-_/",
-"url": "/articles/the-connected-house-what-is-it-_/",
+"id": "https://bastou.github.io/connected-house/articles/the-connected-house-what-is-it-_/",
+"url": "https://bastou.github.io/connected-house/articles/the-connected-house-what-is-it-_/",
 "link": "http://www.lavoixdunord.fr/288506/article/2017-12-29/leroy-merlin-veut-connecter-tous-les-objets-de-la-maison",
 "title": "The Connected House, what is it ?",
 "date_published": "2017-11-28T00:00:00Z",
@@ -296,8 +296,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/honey-well-a-camera-a-security-system-and-a-voice-assistant/",
-"url": "/articles/honey-well-a-camera-a-security-system-and-a-voice-assistant/",
+"id": "https://bastou.github.io/connected-house/articles/honey-well-a-camera-a-security-system-and-a-voice-assistant/",
+"url": "https://bastou.github.io/connected-house/articles/honey-well-a-camera-a-security-system-and-a-voice-assistant/",
 "link": "https://blog.domadoo.fr/69770-honeywell-presente-systeme-de-securite-compatible-alexa-z-wave/",
 "title": "Honey Well, a camera, a security system and a voice assistant",
 "date_published": "2017-11-27T00:00:00Z",
@@ -306,8 +306,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/millo-smart-smoothiemaker/",
-"url": "/articles/millo-smart-smoothiemaker/",
+"id": "https://bastou.github.io/connected-house/articles/millo-smart-smoothiemaker/",
+"url": "https://bastou.github.io/connected-house/articles/millo-smart-smoothiemaker/",
 "link": "https://www.kickstarter.com/projects/1474988352/millo-the-worlds-smartest-smoothie-maker?lang=fr",
 "title": "Millo, the world’s smartest smoothie maker",
 "date_published": "2017-11-24T00:00:00Z",
@@ -316,8 +316,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/blink-connected-cameras-to-monitor-the-house/",
-"url": "/articles/blink-connected-cameras-to-monitor-the-house/",
+"id": "https://bastou.github.io/connected-house/articles/blink-connected-cameras-to-monitor-the-house/",
+"url": "https://bastou.github.io/connected-house/articles/blink-connected-cameras-to-monitor-the-house/",
 "link": "https://www.lemondenumerique.com/blink-veut-proteger-votre-maison-contre-les-intrusions/",
 "title": "Blink, connected cameras to monitor the house",
 "date_published": "2017-11-13T00:00:00Z",
@@ -326,8 +326,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/edf-smartflowers/",
-"url": "/articles/edf-smartflowers/",
+"id": "https://bastou.github.io/connected-house/articles/edf-smartflowers/",
+"url": "https://bastou.github.io/connected-house/articles/edf-smartflowers/",
 "link": "https://www.ladepeche.fr/article/2017/11/09/2681363-transition-energetique-edf-sur-tous-les-fronts.html",
 "title": "EDF' smartflowers",
 "date_published": "2017-11-09T00:00:00Z",
@@ -336,8 +336,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/netatmo-smart-home-bot/",
-"url": "/articles/netatmo-smart-home-bot/",
+"id": "https://bastou.github.io/connected-house/articles/netatmo-smart-home-bot/",
+"url": "https://bastou.github.io/connected-house/articles/netatmo-smart-home-bot/",
 "link": "https://www.presse-citron.net/netatmo-bot-ia-domotique/",
 "title": "CES 2018: Netatmo Smart Home Bot, an automation and domestic AI",
 "date_published": "2017-11-01T00:00:00Z",
@@ -346,8 +346,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/react-house-smarthome/",
-"url": "/articles/react-house-smarthome/",
+"id": "https://bastou.github.io/connected-house/articles/react-house-smarthome/",
+"url": "https://bastou.github.io/connected-house/articles/react-house-smarthome/",
 "link": "https://www.treehugger.com/green-architecture/resilient-adaptive-climate-technology-react-house-university-maryland-solar-decathlon-2017.html",
 "title": "'reACT House', a smart design for ecological living",
 "date_published": "2017-10-24T00:00:00Z",
@@ -356,8 +356,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/connected-building_-delivery-of-an-apartment-building-a-first-in-france/",
-"url": "/articles/connected-building_-delivery-of-an-apartment-building-a-first-in-france/",
+"id": "https://bastou.github.io/connected-house/articles/connected-building_-delivery-of-an-apartment-building-a-first-in-france/",
+"url": "https://bastou.github.io/connected-house/articles/connected-building_-delivery-of-an-apartment-building-a-first-in-france/",
 "link": "http://www.zdnet.fr/actualites/batiment-connecte-livraison-d-un-immeuble-d-habitation-une-premiere-en-france-39859052.htm",
 "title": "Connected building: delivery of an apartment building, a first in France",
 "date_published": "2017-10-24T00:00:00Z",
@@ -366,8 +366,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/google-home-mini/",
-"url": "/articles/google-home-mini/",
+"id": "https://bastou.github.io/connected-house/articles/google-home-mini/",
+"url": "https://bastou.github.io/connected-house/articles/google-home-mini/",
 "link": "https://store.google.com/fr/product/google_home_mini",
 "title": "Google Home mini",
 "date_published": "2017-10-10T00:00:00Z",
@@ -376,8 +376,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/city-of-future-an-reasoned-utopia/",
-"url": "/articles/city-of-future-an-reasoned-utopia/",
+"id": "https://bastou.github.io/connected-house/articles/city-of-future-an-reasoned-utopia/",
+"url": "https://bastou.github.io/connected-house/articles/city-of-future-an-reasoned-utopia/",
 "link": "https://www.lenouveleconomiste.fr/lesdossiers/ville-du-futur-lutopie-raisonnee-61234/",
 "title": "City of future, an reasoned Utopia",
 "date_published": "2017-10-03T00:00:00Z",
@@ -386,8 +386,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/e%CC%81cocapsule-_-the-ecological-caravan-of-future/",
-"url": "/articles/e%CC%81cocapsule-_-the-ecological-caravan-of-future/",
+"id": "https://bastou.github.io/connected-house/articles/e%CC%81cocapsule-_-the-ecological-caravan-of-future/",
+"url": "https://bastou.github.io/connected-house/articles/e%CC%81cocapsule-_-the-ecological-caravan-of-future/",
 "link": "http://edito.seloger.com/lifestyle/eco-habitat/l-ecocapsule-la-caravane-ecologique-du-futur-article-16372.html",
 "title": "Écocapsule : the ecological caravan of future",
 "date_published": "2017-10-03T00:00:00Z",
@@ -396,8 +396,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/britons-fear-connected-home-pirates/",
-"url": "/articles/britons-fear-connected-home-pirates/",
+"id": "https://bastou.github.io/connected-house/articles/britons-fear-connected-home-pirates/",
+"url": "https://bastou.github.io/connected-house/articles/britons-fear-connected-home-pirates/",
 "link": "http://www.netimperative.com/2017/10/brits-fearful-smart-home-hackers/",
 "title": "Britons fear connected home pirates",
 "date_published": "2017-10-02T00:00:00Z",
@@ -406,8 +406,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/samsung-and-adt-team-up-to-launch-new-smart-home-security-kit/",
-"url": "/articles/samsung-and-adt-team-up-to-launch-new-smart-home-security-kit/",
+"id": "https://bastou.github.io/connected-house/articles/samsung-and-adt-team-up-to-launch-new-smart-home-security-kit/",
+"url": "https://bastou.github.io/connected-house/articles/samsung-and-adt-team-up-to-launch-new-smart-home-security-kit/",
 "link": "http://mashable.com/2017/10/02/samsung-adt-smartthings-partnership/?utm_campaign=Mash-Prod-RSS-Feedburner-Tech-Partial\u0026utm_cid=Mash-Prod-RSS-Feedburner-Tech-Partial\u0026utm_source=dlvr.it\u0026utm_medium=twitter#G11Ph3jyaqqg",
 "title": "Samsung and ADT Team Up to Launch New Smart Home Security Kit",
 "date_published": "2017-10-02T00:00:00Z",
@@ -416,8 +416,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/beliv-connected-home/",
-"url": "/articles/beliv-connected-home/",
+"id": "https://bastou.github.io/connected-house/articles/beliv-connected-home/",
+"url": "https://bastou.github.io/connected-house/articles/beliv-connected-home/",
 "link": "https://particuliers.engie.fr/economies-energie/conseils/solutions-innovantes/beliv-maison-connectee.html",
 "title": "'Beliv', the connected and smart home by Engie",
 "date_published": "2017-09-25T00:00:00Z",
@@ -426,8 +426,8 @@
 "categories": ["ecology"]
 }, 
 {
-"id": "/articles/amabrush-connected-toothbrush/",
-"url": "/articles/amabrush-connected-toothbrush/",
+"id": "https://bastou.github.io/connected-house/articles/amabrush-connected-toothbrush/",
+"url": "https://bastou.github.io/connected-house/articles/amabrush-connected-toothbrush/",
 "link": "https://www.amabrush.com/",
 "title": "Amabrush, save 61 days of your life !",
 "date_published": "2017-09-24T00:00:00Z",
@@ -436,8 +436,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/what-is-the-house-of-future-_/",
-"url": "/articles/what-is-the-house-of-future-_/",
+"id": "https://bastou.github.io/connected-house/articles/what-is-the-house-of-future-_/",
+"url": "https://bastou.github.io/connected-house/articles/what-is-the-house-of-future-_/",
 "link": "https://twitter.com/Inafr_officiel/status/911620429764214784/video/1",
 "title": "What is the house of future ?",
 "date_published": "2017-09-24T00:00:00Z",
@@ -446,8 +446,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/the-connected-house-can-take-off-under-certain-conditions_-alexandre-chaverot-boss-of-smarthome-internationa/",
-"url": "/articles/the-connected-house-can-take-off-under-certain-conditions_-alexandre-chaverot-boss-of-smarthome-internationa/",
+"id": "https://bastou.github.io/connected-house/articles/the-connected-house-can-take-off-under-certain-conditions_-alexandre-chaverot-boss-of-smarthome-internationa/",
+"url": "https://bastou.github.io/connected-house/articles/the-connected-house-can-take-off-under-certain-conditions_-alexandre-chaverot-boss-of-smarthome-internationa/",
 "link": "https://www.lsa-conso.fr/la-maison-connectee-peut-decoller-sous-certaines-conditions-alexandre-chaverot-patron-de-smarthome-international,266337",
 "title": "'The connected house can take off under certain conditions' Alexandre Chaverot, boss of Smarthome International",
 "date_published": "2017-09-20T00:00:00Z",
@@ -456,8 +456,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/keezel-protects-the-connected-home/",
-"url": "/articles/keezel-protects-the-connected-home/",
+"id": "https://bastou.github.io/connected-house/articles/keezel-protects-the-connected-home/",
+"url": "https://bastou.github.io/connected-house/articles/keezel-protects-the-connected-home/",
 "link": "https://www.objetconnecte.com/startup-tour-keezel-protege-maison-160916/",
 "title": "Keezel protects the connected home!",
 "date_published": "2017-09-16T00:00:00Z",
@@ -466,8 +466,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/yeelight-connected-romanticism/",
-"url": "/articles/yeelight-connected-romanticism/",
+"id": "https://bastou.github.io/connected-house/articles/yeelight-connected-romanticism/",
+"url": "https://bastou.github.io/connected-house/articles/yeelight-connected-romanticism/",
 "link": "https://www.objetconnecte.net/yeelight-bougie-connectee/",
 "title": "Yeelight, the connected romanticism",
 "date_published": "2017-09-12T00:00:00Z",
@@ -476,8 +476,8 @@
 "categories": ["comfort"]
 }, 
 {
-"id": "/articles/_lego_-houses-ecological-and-cheap-build-in-less-4-month/",
-"url": "/articles/_lego_-houses-ecological-and-cheap-build-in-less-4-month/",
+"id": "https://bastou.github.io/connected-house/articles/_lego_-houses-ecological-and-cheap-build-in-less-4-month/",
+"url": "https://bastou.github.io/connected-house/articles/_lego_-houses-ecological-and-cheap-build-in-less-4-month/",
 "link": "http://immobilier.lefigaro.fr/article/des-maisons-lego-ecolo-et-pas-cheres-construites-en-moins-de-4-mois_588e105e-99f5-11e7-8d34-f6cfc6afc02f/",
 "title": "Lego Houses, ecological and cheap, build in less 4 month",
 "date_published": "2017-09-10T00:00:00Z",
@@ -486,8 +486,8 @@
 "categories": ["house"]
 }, 
 {
-"id": "/articles/this-company-hacked-connected-houses-devices-to-show-the-vulnerability/",
-"url": "/articles/this-company-hacked-connected-houses-devices-to-show-the-vulnerability/",
+"id": "https://bastou.github.io/connected-house/articles/this-company-hacked-connected-houses-devices-to-show-the-vulnerability/",
+"url": "https://bastou.github.io/connected-house/articles/this-company-hacked-connected-houses-devices-to-show-the-vulnerability/",
 "link": "https://www.forbes.com/sites/jenniferhicks/2017/09/19/this-company-staged-a-hack-with-multiple-devices-to-show-your-homes-vulnerablity/#2006e8aa5322",
 "title": "This company hacked connected houses devices to show the vulnerability",
 "date_published": "2017-09-10T00:00:00Z",
@@ -496,8 +496,8 @@
 "categories": ["security"]
 }, 
 {
-"id": "/articles/the-connected-house-a-dream-come-true/",
-"url": "/articles/the-connected-house-a-dream-come-true/",
+"id": "https://bastou.github.io/connected-house/articles/the-connected-house-a-dream-come-true/",
+"url": "https://bastou.github.io/connected-house/articles/the-connected-house-a-dream-come-true/",
 "link": "http://www.lexpress.fr/tendances/produit-high-tech/la-maison-connectee-un-reve-devenu-realite_1901195.html",
 "title": "The Connected House, a dream come true",
 "date_published": "0001-01-01T00:00:00Z",
@@ -506,5 +506,5 @@
 "categories": ["house"]
 }
 ],
-"feed_url" : "/articles/index.json"
+"feed_url" : "https://bastou.github.io/connected-house/articles/index.json"
 }

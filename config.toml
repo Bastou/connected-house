@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-baseURL = "/" 
+baseURL = "https://bastou.github.io/connected-house/"
 # Dist :
 ## baseURL = "https://dist.com/"
 title = "Connected House"
