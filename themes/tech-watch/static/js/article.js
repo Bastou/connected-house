@@ -14,8 +14,11 @@ export default class Article {
         this.category = props.category;
         this.title = props.title;
         this.date = props.date;
-        this.url = props.url;
+        this.link = props.link;
         this.html = props.html;
+
+        this.hTitle;
+        this.hWordTitleLenght = 6;
 
         // Article canvas shape
         this.x = props.x;
@@ -44,9 +47,10 @@ export default class Article {
         // TODO: put that stuff in an object fuck off
         this.aroundCirclesNb = 4;
         this.aroundCircleROff = 0;
-        this.aroundCircles = new Array(this.aroundCirclesNb).fill(0).map(c => ({x:this.x, y:this.y,r:0}));
+        this.aroundCircles;
 
         // title in View
+        this.tlTitlePos = {};
         this.uiTitleAlpha = {a:0}; // must  be an object for Tween
         this.uiTitleP = {
             'alpha': {x:0, y:0},
@@ -62,11 +66,23 @@ export default class Article {
 
         // Is onTop
         this.isOnTop = false; // Si articles de la même date alors le précédent au dessus
+        this.afterOnTop = false; // Si articles d'après de la même date et au dessu
 
     }
 
     init () {
+        this.x += this._r/2;
+        if(this.isOnTop) {
+            this.y -= 20;
+        }
+        this.aroundCircles = new Array(this.aroundCirclesNb).fill(0).map(c => ({x:this.x, y:this.y,r:0}));
         this.setPcolor(this.color);
+        this.setTlTitle(this.title);
+        if(this.afterOnTop) {
+            this.tlTitlePos = {x:this.x - 90, y:this.y - 70}
+        } else {
+            this.tlTitlePos = {x:this.x - 90, y:this.y - 50}
+        }
     }
 
     clicked(px, py) {
@@ -165,7 +181,7 @@ export default class Article {
         this.p.textAlign(this.p.CENTER);
         this.p.textSize(14);
         this.p.push();
-        this.p.text(this.title, this.x, this.y - 30);
+        this.p.text(this.hTitle, this.tlTitlePos.x, this.tlTitlePos.y, 180, 50);
         this.p.pop();
         this.pColor.setAlpha(255);
     }
@@ -178,9 +194,18 @@ export default class Article {
         this.uiPanel.date.innerText = new Date(this.date).toLocaleDateString();
         this.uiPanel.title.innerText = this.title;
         this.uiPanel.content.innerHTML = this.html;
-        this.uiPanel.link.setAttribute('href', this.url);
+        this.uiPanel.link.setAttribute('href', this.link);
         this.uiPanel.closeButton.style.color = this.color;
         this.uiPanel.container.classList.add('open');
         this.p.tlStates.panelOpened = true;
+    }
+
+    setTlTitle(title) {
+        let titleLength = this.title.split(" ").length;
+        if(titleLength > this.hWordTitleLenght) {
+            this.hTitle = title.split(" ").splice(0,this.hWordTitleLenght).join(" ") + "...";
+        } else {
+            this.hTitle = title;
+        }
     }
 }

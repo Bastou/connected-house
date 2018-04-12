@@ -10,7 +10,7 @@
   right: 0;
   top:0;
   bottom:0;
-  background: #030028;
+  background: rgba(#030028, 0.9);
   max-width: 450px;
   width:100%;
   overflow: scroll;
@@ -32,12 +32,15 @@
     transition: all 0.3s ease-in-out 0.05s;
   }
   #article-content {
-
+    max-height: 470px;
+    overflow: scroll;
+    margin-bottom: 20px;
   }
   .link {
     display: block;
     margin-bottom:45px;
     > span {
+      opacity: 0.5;
       padding-bottom: 2px;
       border-bottom: 3px solid transparent;
       transition: all 0.3s ease-in;
@@ -49,6 +52,7 @@
     }
     &:hover {
       span {
+        opacity: 1;
         border-color: $base-color;
       }
     }

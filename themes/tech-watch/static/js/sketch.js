@@ -79,6 +79,8 @@ export default function( p ) {
         // Get all articles from generated hugo json
         const url = '//' + window.location.host + '/articles/index.json';
         p.loadJSON(url, function (data) {
+
+            // Map json data with class articles
             data.articles.forEach( (article, key) =>
             {
                 let articleCategory = categories.filter( (el) => {
@@ -92,7 +94,7 @@ export default function( p ) {
                         title: article.title,
                         category: article.categories[0],
                         date: article.date,
-                        url: article.url,
+                        link: article.link,
                         html: article['content_html'],
                         color: articleCategory[0].color,
                         // TODO: make in article
@@ -101,22 +103,38 @@ export default function( p ) {
                         uiPanel: uiPanel
                     })
                 );
-                articles[key].init();
+                //articles[key].init();
             })
+
+            // Sort articles
+            articles.sort(function(a,b) {
+                let sortParam = 'date';
+                return (a[sortParam] > b[sortParam]) ? 1 : ((b[sortParam] > a[sortParam]) ? -1 : 0)
+            });
+
+            // Special articles options
+            setupArticlesLines();
+
+            // distribute particles of same date on Y
+            setupArticlesOnTop();
+
+            // Init articles
+            articles.forEach(article =>
+            {
+                article.init();
+            });
         });
 
-        // Sort articles
-        articles.sort(function(a,b) {
-            let sortParam = 'date';
-            return (a[sortParam] > b[sortParam]) ? 1 : ((b[sortParam] > a[sortParam]) ? -1 : 0)
-        })
     };
 
     p.setup = function() {
         cv = p.createCanvas(W, H);
         cv.mouseClicked(cvMouseClicked);
 
+        // Special articles options
         setupArticlesLines();
+        // TODO: add before articles init
+        //setupArticlesOnTop();
     };
 
     p.draw = function() {
@@ -241,11 +259,12 @@ export default function( p ) {
     function setupArticlesLines() {
         let lastMonth = 0;
         let lastCoords = {x:0,y:0};
+        let wasOnTop = false;
 
         datas.categories.forEach(category => {
             articles.forEach(article => {
                 if(article.category === category.id) {
-                    if(lastMonth === new Date(article.date).getMonth() + 1) {
+                    if(lastMonth === new Date(article.date).getMonth() + 1 && !wasOnTop) {
                         article.hasLine = true;
                         article.lineTo.x = lastCoords.x;
                         article.lineTo.y = lastCoords.y;
@@ -253,6 +272,26 @@ export default function( p ) {
                     lastMonth = new Date(article.date).getMonth() + 1;
                     lastCoords.x = article.x;
                     lastCoords.y = article.y;
+                    wasOnTop = article.isOnTop;
+                }
+            });
+        });
+    }
+
+    function setupArticlesOnTop() {
+        let lastArticle = null;
+
+        datas.categories.forEach(category => {
+            articles.forEach((article, key) => {
+                if(article.category === category.id) {
+                    if(lastArticle && lastArticle.date === article.date) {
+                        article.isOnTop = true;
+                        if(key >= 0) {
+                            lastArticle.afterOnTop = true;
+                        }
+                    }
+                    lastArticle = article;
+
                 }
             });
         });

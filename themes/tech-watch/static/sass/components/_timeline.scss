@@ -4,3 +4,10 @@
 #timeline {
   @extend .absolute-fit;
 }
+
+#p5_loading {
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
