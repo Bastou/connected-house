@@ -23,3 +23,5 @@ yarn.lock
 .sass-cache/
 */css/style.css
 package-lock.json
+
+./themes/tech-watch/static/js/dist
