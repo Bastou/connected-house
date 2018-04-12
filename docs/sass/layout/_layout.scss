@@ -1,0 +1,98 @@
+  /* $LAYOUT
+  ========================================================================== */
+
+  html,
+  body,
+  .body-inner,
+  .main-wrapper
+   {
+      min-height: 100vh;
+  }
+
+  html {
+      background: $base-background;
+  }
+
+  body {
+      position: relative;
+  }
+
+  .mobile {
+      body {
+          min-width: 100%;
+      }
+  }
+
+  .wrapper-site {
+      position:relative;
+      overflow:hidden;
+  }
+
+  /*
+   * Contenu principal
+   */
+   .main-wrapper {
+      position: relative;
+     z-index:1;
+      @media #{$max-small} {
+          margin-bottom: 0;
+      }
+   }
+
+   .deco-bg-waves {
+     position: absolute;
+     z-index:0;
+     left:0;
+     right: 0;
+     top:0;
+     bottom: 0;
+   }
+
+   %deco-bg-waves-top-bottom {
+     position: absolute;
+     width: 100%;
+     &:before, &:after {
+       content: '';
+       height: 30rem;
+       position: absolute;
+       width: 100%;
+       pointer-events: none;
+       background-repeat: no-repeat;
+       background-size: contain;
+       // TODO: responsive > 1900
+     }
+   }
+
+   .deco-bg-waves__top {
+      @extend %deco-bg-waves-top-bottom;
+      top: 0;
+       &:before, &:after {
+           background-position: center top;
+            top: 0;
+       }
+       &:before {
+            height: 30rem;
+           background-image: url(../img/wave-top-back.svg);
+       }
+       &:after {
+           background-image: url(../img/wave-top-front.svg);
+            z-index:1;
+       }
+   }
+
+   .deco-bg-waves__bottom {
+      @extend %deco-bg-waves-top-bottom;
+      bottom: 0;
+       &:before, &:after {
+           background-position: center bottom;
+            bottom: 0;
+       }
+       &:before {
+         height: 50rem;
+				 background-image: url(../img/wave-bottom-back.svg);
+       }
+       &:after {
+           background-image: url(../img/wave-bottom-front.svg);
+            z-index:1;
+       }
+   }
