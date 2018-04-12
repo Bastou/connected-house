@@ -2,13 +2,19 @@ import {
 	createBlob
 } from './blob'
 
+import SmoothScroll from 'smooth-scroll'
+
 // import Parallax from 'parallax-js'
 if (document.getElementById('what-is-it')) {
 
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000, 
+    });
+
 	var blob1 = createBlob({
-		element: document.querySelector("#path1"), 
+		element: document.querySelector("#path1"),
 		numPoints: 25,
-		centerX: 500,
+		centerX: 500, 
 		centerY: 500,
 		minRadius: 300,
 		maxRadius: 375,
@@ -16,16 +22,7 @@ if (document.getElementById('what-is-it')) {
 		maxDuration: 10
 	});
 
-	var blob2 = createBlob({
-		element: document.querySelector("#path2"),
-		numPoints: 25,
-		centerX: 500,
-		centerY: 500,
-		minRadius: 300,
-		maxRadius: 375,
-		minDuration: 5,
-		maxDuration: 10
-	});
+
 
 	var blob3 = createBlob({
 		element: document.querySelector("#path3"),
@@ -38,6 +35,30 @@ if (document.getElementById('what-is-it')) {
 		maxDuration: 10
 	});
 
+	if (!document.getElementById('vision')) {
+
+		var blob4 = createBlob({
+			element: document.querySelector("#path4"),
+			numPoints: 25,
+			centerX: 500,
+			centerY: 500,
+			minRadius: 200,
+			maxRadius: 245,
+			minDuration: 5,
+			maxDuration: 10
+        });
+        
+        var blob2 = createBlob({
+            element: document.querySelector("#path2"),
+            numPoints: 25,
+            centerX: 500,
+            centerY: 500,
+            minRadius: 300,
+            maxRadius: 375,
+            minDuration: 5,
+            maxDuration: 10
+        });
+	}
 
 	AOS.init({
 		duration: 1200,

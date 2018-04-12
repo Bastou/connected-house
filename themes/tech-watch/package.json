@@ -37,6 +37,7 @@
     "gsap": "^1.20.4",
     "lodash.assign": "^4.2.0",
     "p5": "^0.6.0",
+    "smooth-scroll": "^12.1.5",
     "watchify": "^3.11.0"
   }
 }
