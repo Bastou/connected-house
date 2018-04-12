@@ -74,10 +74,11 @@ export default function( p ) {
     p.preload = function () {
 
         // Load font
-        font = p.loadFont('./font/karla.ttf');
+        font = p.loadFont('//' + window.location.host + '/font/karla.ttf');
 
         // Get all articles from generated hugo json
         const url = '//' + window.location.host + '/articles/index.json';
+        console.log(url);
         p.loadJSON(url, function (data) {
 
             // Map json data with class articles
