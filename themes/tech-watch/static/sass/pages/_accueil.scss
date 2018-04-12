@@ -5,3 +5,18 @@
 	overflow: hidden;
 }
 
+.media-link {
+  @include rem('font-size', 1.4rem);
+  position: absolute;
+  z-index:5;
+  right: 50px;
+  bottom: 50px;
+  text-decoration: underline;
+  color: $pale-lilac;
+  opacity: 0.5;
+  transition: all 0.3s;
+
+  &:hover {
+    opacity: 1;
+  }
+}

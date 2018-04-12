@@ -145,7 +145,9 @@ h4, .h4 {
 
 a {
   color: #e5e3ff;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out; }
   a:hover {
     color: #b6b0ff;
     text-decoration: none; }
@@ -1198,6 +1200,21 @@ body {
 .home {
   overflow: hidden; }
 
+.media-link {
+  font-size: 14px;
+  font-size: 1.4rem;
+  position: absolute;
+  z-index: 5;
+  right: 50px;
+  bottom: 50px;
+  text-decoration: underline;
+  color: #e5e3ff;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s; }
+  .media-link:hover {
+    opacity: 1; }
+
 /* $SITEMAP
 ========================================================================== */
 #what-is-it {
@@ -1511,6 +1528,71 @@ body {
       height: 80px;
       border-radius: 50%;
       background: #030028; }
+
+/* $ARTICLES
+========================================================================== */
+.content--listing--outlinks {
+  padding: 50px; }
+  .content--listing--outlinks .listing {
+    margin: 0 -30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+
+.article-outlink {
+  font-size: 18px;
+  font-size: 1.8rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  max-width: 33%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 33%;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  padding: 0 30px;
+  display: block;
+  white-space: nowrap; }
+
+.credits-wrapper {
+  display: block;
+  margin: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px; }
+
+.credits {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -15px; }
+
+.credits__item {
+  font-size: 14px;
+  font-size: 1.4rem;
+  color: #e5e3ff;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0 15px; }
+  .credits__item a {
+    text-decoration: underline;
+    opacity: 0.8;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s; }
+  .credits__item:hover, .credits__item a {
+    opacity: 1; }
 
 /* ==========================================================================
    $THEMES

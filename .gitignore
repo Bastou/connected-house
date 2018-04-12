@@ -1,5 +1,7 @@
 # Hugo default output directory
 /public
+/themes/tech-watch/static/css
+/themes/tech-watch/static/js/dist
 
 ## OS Files
 # Windows
@@ -23,3 +25,4 @@ yarn.lock
 .sass-cache/
 */css/style.css
 package-lock.json
+

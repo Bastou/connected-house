@@ -1,0 +1,22 @@
+{{ define "title"}} {{ .Title}} {{end}}
+{{ define "bodyclass" }}page-listing{{ end }}
+{{ define "header"}} {{ partial "header" .}} {{end}}
+{{ define "main" }}
+
+<div class="content content--listing content--listing--outlinks">
+	<ul class="listing">
+	 {{ range .Data.Pages }} {{ partial "page-outlink" . }} {{ end }}
+	</ul>
+</div><!-- /.content -->
+
+<div class="credits-wrapper">
+    <ul class="credits">
+        <li class="credits__item">Réalisé par : </li>
+        <li class="credits__item"><a href="http://elisadubois.fr/">Elisa Dubois</a></li>
+        <li class="credits__item"><a href="https://github.com/yannsheriff">Yann Cherif</a></li>
+        <li class="credits__item"><a href="https://www.behance.net/alixchabd878/appreciated">Alix Chabanny</a></li>
+        <li class="credits__item"><a href="https://bastiencornier.com/">Bastien Cornier</a></li>
+    </ul>
+</div>
+
+{{ end }} 
